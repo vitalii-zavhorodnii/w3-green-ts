@@ -1,5 +1,5 @@
 {
-  "mapFolder": "map.w3x",
+  "mapFolder": "green_ts.w3x",
   "minifyScript": false,
   "gameExecutable": "D:\\Games\\Warcraft III\\_retail_\\x86_64\\Warcraft III.exe",
   "outputFolder": "./dist/bin",

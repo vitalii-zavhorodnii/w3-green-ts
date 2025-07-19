@@ -1,6 +1,6 @@
 import { Rectangle, Region, Trigger, Unit } from 'w3ts';
 
-import createVFX from '@scripts/helpers/create-vfx';
+import createVFX from '@helpers/create-vfx';
 
 import { DECOR } from '@constants/decorations.constants';
 import { GAME } from '@constants/game.constants';

@@ -1,4 +1,4 @@
-import { Unit, Trigger, MapPlayer } from 'w3ts';
+import { MapPlayer, Trigger, Unit } from 'w3ts';
 
 import createVFX from '@helpers/create-vfx';
 

@@ -1,4 +1,4 @@
-import { MapPlayer, Trigger, Unit, Timer } from 'w3ts';
+import { MapPlayer, Timer, Trigger, Unit } from 'w3ts';
 import { OrderId } from 'w3ts/globals';
 
 import { GAME } from '@constants/game.constants';
