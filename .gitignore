@@ -1,6 +1,7 @@
 # specific 
 /node_modules
 /dist
+/maps/temp
 
 target
 package-lock.json

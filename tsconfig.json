@@ -11,11 +11,8 @@
     ],
     "moduleResolution": "node",
     "paths": {
-      "*": [
-        "./src/*"
-      ],
-      "@/*": [
-        "src/*"
+      "@objectdata/*": [
+        "./node_modules/war3-objectdata-th/dist/cjs/generated/constants/*"
       ],
       "@scripts/*": [
         "./src/scripts/*"
@@ -37,9 +34,6 @@
       ],
       "@decorations/*": [
         "./src/scripts/decorations/*"
-      ],
-      "@objectdata/*": [
-        "./node_modules/war3-objectdata-th/dist/cjs/generated/constants/*"
       ]
     },
     "plugins": [

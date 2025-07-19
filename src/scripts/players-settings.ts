@@ -1,6 +1,6 @@
 import { MapPlayer, Unit } from 'w3ts';
 
-import { selectUnitForPlayer } from '@scripts/helpers/select-unit-for-player';
+import { selectUnitForPlayer } from '@helpers/select-unit-for-player';
 
 import { DECOR } from '@constants/decorations.constants';
 import { GAME } from '@constants/game.constants';
