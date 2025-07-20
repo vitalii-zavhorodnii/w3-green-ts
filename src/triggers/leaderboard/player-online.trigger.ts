@@ -2,9 +2,7 @@ import { MapPlayer, Trigger } from 'w3ts';
 
 import { GAME } from '@constants/game.constants';
 
-export default function updatePlayerOnlineTrigger(
-  callback: (playerId: number) => void
-) {
+export default function updatePlayerOnlineTrigger(leaderboardLUA: leaderboard) {
   const trigger = Trigger.create();
 
   function action() {
@@ -16,7 +14,7 @@ export default function updatePlayerOnlineTrigger(
       `${GAME.playerColor[player.id]}${player}|r |cffffcc00has left the game|r`
     );
 
-    callback(player.id);
+    LeaderboardSetPlayerItemLabelBJ(player.handle, leaderboardLUA, 'Left the game');
   }
 
   for (let i = 0; i < GAME.maxPlayers; i++) {

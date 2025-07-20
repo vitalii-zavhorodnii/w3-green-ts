@@ -1,14 +1,21 @@
-import { Trigger, Unit } from 'w3ts';
+import { Leaderboard, Trigger, Unit } from 'w3ts';
 
 import { GAME } from '@constants/game.constants';
 
-export default function updateScoreTrigger(callback: (playerId: number) => void) {
+export default function updateScoreTrigger(leaderboardLUA: leaderboard) {
   const trigger = Trigger.create();
+  const playerScore = [0, 0, 0, 0, 0, 0];
 
   function action() {
     const killer = Unit.fromHandle(GetKillingUnit()) as Unit;
 
-    callback(killer.owner.id);
+    playerScore[killer.owner.id] = playerScore[killer.owner.id] + 1;
+
+    LeaderboardSetPlayerItemValueBJ(
+      killer.owner.handle,
+      leaderboardLUA,
+      playerScore[killer.owner.id]
+    );
   }
 
   function condition() {

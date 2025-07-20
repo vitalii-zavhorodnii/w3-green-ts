@@ -3,6 +3,7 @@ import gameSegment from '@segments/game.segment';
 import autoBuildTrigger from '@triggers/autobuild.trigger';
 import autoUpgradeTrigger from '@triggers/autoupgrade.trigger';
 import blinkTrigger from '@triggers/blink.trigger';
+import checkOverCapTrigger from '@triggers/check-overcap.trigger';
 import creepLootTrigger from '@triggers/creep-loot.trigger';
 import creepsCleanTrigger from '@triggers/creeps-clean.trigger';
 
@@ -52,6 +53,7 @@ export default function preparationSegment() {
   playersSettings();
   creepLootTrigger();
   createQuestLog();
+  checkOverCapTrigger();
 
   // Activate main game segment
   runTimer(gameSegment, GAME.startSegmentTimer, false, 'Preparation');
