@@ -18,6 +18,7 @@ export default function shadeDecoration() {
     points[0][0],
     points[0][1]
   ) as Unit;
+  
   unit.invulnerable = true;
 
   runTimer(

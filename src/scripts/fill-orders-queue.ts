@@ -25,7 +25,7 @@ export default function fillOrdersQueue(unit: Unit, start: number) {
 
       unit.issuePointOrder(OrderId.Move, WAYPOINTS[currentOrder]);
     }
-
+    
     if (!unit.isAlive) {
       timer.destroy;
     }

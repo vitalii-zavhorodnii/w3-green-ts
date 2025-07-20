@@ -1,4 +1,4 @@
-import { Leaderboard, Trigger, Unit } from 'w3ts';
+import { Trigger, Unit } from 'w3ts';
 
 import { GAME } from '@constants/game.constants';
 

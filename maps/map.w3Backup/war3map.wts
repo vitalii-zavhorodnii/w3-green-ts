@@ -5,7 +5,7 @@ Player 1
 
 STRING 3
 {
-Green Circle TS
+|cff80ff80Green|r TS
 }
 
 STRING 4
@@ -213,7 +213,7 @@ S
 }
 
 STRING 100
-// Units: h000 (Wailing Soul), Ubertip (Tooltip - Extended)
+// Units: h00Z (Void Soul), Ubertip (Tooltip - Extended)
 {
 |cffe1a800Hero|r attacks deal |cff00ff00150|r%
 |cff8c8c8cPierce|r attacks deal |cffff000050|r%
@@ -254,7 +254,7 @@ STRING 108
 }
 
 STRING 109
-// Units: h00Z (Void Soul), Ubertip (Tooltip - Extended)
+// Units: h010 (Dark Soul), Ubertip (Tooltip - Extended)
 {
 |cffe1a800Hero|r attacks deal |cff00ff00150|r%
 |cff8c8c8cPierce|r attacks deal |cffff000050|r%
@@ -279,7 +279,7 @@ STRING 112
 }
 
 STRING 113
-// Units: h010 (Dark Soul), Ubertip (Tooltip - Extended)
+// Units: h011 (Vengeful Soul), Ubertip (Tooltip - Extended)
 {
 |cffe1a800Hero|r attacks deal |cff00ff00150|r%
 |cff8c8c8cPierce|r attacks deal |cffff000050|r%
@@ -504,7 +504,7 @@ STRING 172
 }
 
 STRING 173
-// Units: o002 (Berserk |cffffcc001|r), Hotkey (Hotkey)
+// Units: h005 (Siege |cffffcc002|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -810,7 +810,7 @@ STRING 256
 }
 
 STRING 257
-// Units: h005 (Siege |cffffcc002|r), Hotkey (Hotkey)
+// Units: o004 (Desolace |cffffcc002|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -1733,14 +1733,8 @@ STRING 423
 (dummy)
 }
 
-STRING 425
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB1>|r damage to the target, and |cffffcc00<AUfn,DataA1>|r nova damage. Cold damage slows units' movement
-}
-
 STRING 427
-// Units: h011 (Vengeful Soul), Ubertip (Tooltip - Extended)
+// Units: h012 (Shadowed Soul), Ubertip (Tooltip - Extended)
 {
 |cffe1a800Hero|r attacks deal |cff00ff00150|r%
 |cff8c8c8cPierce|r attacks deal |cffff000050|r%
@@ -1758,7 +1752,7 @@ Lightning Warden has |cff8080ffMagical|r attack type.
 }
 
 STRING 430
-// Units: h003 (Siege |cffffcc001|r), Ubertip (Tooltip - Extended)
+// Units: h005 (Siege |cffffcc002|r), Ubertip (Tooltip - Extended)
 {
 Siege Warden has |cffd45e19Siege|r attack type
 |cffffcc00Abilities:|r Sentry
@@ -1836,7 +1830,7 @@ Desolace Warden has |cff00b400Chaos|r attack type.
 }
 
 STRING 443
-// Units: h005 (Siege |cffffcc002|r), Ubertip (Tooltip - Extended)
+// Units: h00P (Siege |cffffcc003|r), Ubertip (Tooltip - Extended)
 {
 Siege Warden has |cffd45e19Siege|r attack type
 |cffffcc00Abilities:|r Sentry
@@ -3585,12 +3579,6 @@ STRING 749
 Deals |cffffcc00<A009:Aven,DataA30>|r poison damage per second
 }
 
-STRING 750
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB2>|r damage to the target, and |cffffcc00<AUfn,DataA2>|r nova damage. Cold damage slows units' movement
-}
-
 STRING 751
 // Abilities: A00M (Frost Nova), Tip (Tooltip - Normal)
 {
@@ -3763,174 +3751,6 @@ STRING 779
 // Abilities: A00M (Frost Nova), Tip (Tooltip - Normal)
 {
 Frost Nova
-}
-
-STRING 780
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB3>|r damage to the target, and |cffffcc00<AUfn,DataA3>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 781
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB4>|r damage to the target, and |cffffcc00<AUfn,DataA4>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 782
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB5>|r damage to the target, and |cffffcc00<AUfn,DataA5>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 783
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB6>|r damage to the target, and |cffffcc00<AUfn,DataA6>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 784
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB7>|r damage to the target, and |cffffcc00<AUfn,DataA7>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 785
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB8>|r damage to the target, and |cffffcc00<AUfn,DataA8>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 786
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB9>|r damage to the target, and |cffffcc00<AUfn,DataA9>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 787
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB10>|r damage to the target, and |cffffcc00<AUfn,DataA10>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 788
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB11>|r damage to the target, and |cffffcc00<AUfn,DataA11>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 789
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB12>|r damage to the target, and |cffffcc00<AUfn,DataA12>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 790
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB13>|r damage to the target, and |cffffcc00<AUfn,DataA13>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 791
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB14>|r damage to the target, and |cffffcc00<AUfn,DataA14>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 792
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB15>|r damage to the target, and |cffffcc00<AUfn,DataA15>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 793
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB16>|r damage to the target, and |cffffcc00<AUfn,DataA16>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 794
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB17>|r damage to the target, and |cffffcc00<AUfn,DataA17>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 795
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB18>|r damage to the target, and |cffffcc00<AUfn,DataA18>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 796
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB19>|r damage to the target, and |cffffcc00<AUfn,DataA19>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 797
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB20>|r damage to the target, and |cffffcc00<AUfn,DataA20>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 798
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB21>|r damage to the target, and |cffffcc00<AUfn,DataA21>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 799
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB22>|r damage to the target, and |cffffcc00<AUfn,DataA22>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 800
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB23>|r damage to the target, and |cffffcc00<AUfn,DataA23>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 801
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB24>|r damage to the target, and |cffffcc00<AUfn,DataA24>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 802
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB25>|r damage to the target, and |cffffcc00<AUfn,DataA25>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 803
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB26>|r damage to the target, and |cffffcc00<AUfn,DataA26>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 804
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB27>|r damage to the target, and |cffffcc00<AUfn,DataA27>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 805
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB28>|r damage to the target, and |cffffcc00<AUfn,DataA28>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 806
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB29>|r damage to the target, and |cffffcc00<AUfn,DataA29>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 807
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB30>|r damage to the target, and |cffffcc00<AUfn,DataA30>|r nova damage. Cold damage slows units' movement
 }
 
 STRING 808
@@ -4123,7 +3943,7 @@ Poison Warden has |cff8c8c8cPierce|r attack type
 }
 
 STRING 874
-// Units: o004 (Desolace |cffffcc002|r), Hotkey (Hotkey)
+// Units: o005 (Berserk |cffffcc002|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4162,7 +3982,7 @@ Poison Warden has |cff8c8c8cPierce|r attack type
 }
 
 STRING 880
-// Units: o005 (Berserk |cffffcc002|r), Hotkey (Hotkey)
+// Units: o006 (Berserk |cffffcc003|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4189,7 +4009,7 @@ Poison Warden has |cff8c8c8cPierce|r attack type
 }
 
 STRING 884
-// Units: o006 (Berserk |cffffcc003|r), Hotkey (Hotkey)
+// Units: o007 (Berserk |cffffcc004|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4222,7 +4042,7 @@ Poison Warden has |cff8c8c8cPierce|r attack type
 }
 
 STRING 889
-// Units: o007 (Berserk |cffffcc004|r), Hotkey (Hotkey)
+// Units: o008 (Berserk |cffffcc005|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4255,7 +4075,7 @@ Poison Warden has |cff8c8c8cPierce|r attack type
 }
 
 STRING 894
-// Units: o008 (Berserk |cffffcc005|r), Hotkey (Hotkey)
+// Units: o009 (Berserk |cffffcc006|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4288,7 +4108,7 @@ Poison Warden has |cff8c8c8cPierce|r attack type
 }
 
 STRING 899
-// Units: o009 (Berserk |cffffcc006|r), Hotkey (Hotkey)
+// Units: o00A (Berserk |cffffcc007|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4321,7 +4141,7 @@ Poison Warden has |cff8c8c8cPierce|r attack type
 }
 
 STRING 904
-// Units: o00A (Berserk |cffffcc007|r), Hotkey (Hotkey)
+// Units: o00B (Berserk |cffffcc008|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4354,7 +4174,7 @@ Poison Warden has |cff8c8c8cPierce|r attack type
 }
 
 STRING 909
-// Units: o00B (Berserk |cffffcc008|r), Hotkey (Hotkey)
+// Units: o00C (Berserk |cffffcc009|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4375,7 +4195,7 @@ Poison Warden has |cff8c8c8cPierce|r attack type
 }
 
 STRING 914
-// Units: o00C (Berserk |cffffcc009|r), Hotkey (Hotkey)
+// Units: o00D (Berserk |cffffcc0010|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4411,7 +4231,7 @@ STRING 919
 }
 
 STRING 920
-// Units: o00D (Berserk |cffffcc0010|r), Hotkey (Hotkey)
+// Units: o00E (Poison |cffffcc002|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4444,7 +4264,7 @@ STRING 924
 }
 
 STRING 925
-// Units: o00E (Poison |cffffcc002|r), Hotkey (Hotkey)
+// Units: o00F (Poison |cffffcc003|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4477,7 +4297,7 @@ STRING 929
 }
 
 STRING 930
-// Units: o00F (Poison |cffffcc003|r), Hotkey (Hotkey)
+// Units: o00G (Poison |cffffcc004|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4510,7 +4330,7 @@ STRING 934
 }
 
 STRING 935
-// Units: o00G (Poison |cffffcc004|r), Hotkey (Hotkey)
+// Units: o00H (Poison |cffffcc005|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4543,7 +4363,7 @@ STRING 939
 }
 
 STRING 940
-// Units: o00H (Poison |cffffcc005|r), Hotkey (Hotkey)
+// Units: o00I (Poison |cffffcc006|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4576,7 +4396,7 @@ STRING 944
 }
 
 STRING 945
-// Units: o00I (Poison |cffffcc006|r), Hotkey (Hotkey)
+// Units: o00J (Poison |cffffcc007|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4603,7 +4423,7 @@ Desolace |cffffcc009|r
 }
 
 STRING 949
-// Units: o00J (Poison |cffffcc007|r), Hotkey (Hotkey)
+// Units: o00K (Poison |cffffcc008|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4636,7 +4456,7 @@ STRING 953
 }
 
 STRING 954
-// Units: o00K (Poison |cffffcc008|r), Hotkey (Hotkey)
+// Units: o00L (Poison |cffffcc009|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4663,7 +4483,7 @@ Multishot |cffffcc002|r
 }
 
 STRING 958
-// Units: o00L (Poison |cffffcc009|r), Hotkey (Hotkey)
+// Units: o00M (Poison |cffffcc0010|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4696,7 +4516,7 @@ Multishot |cffffcc003|r
 }
 
 STRING 964
-// Units: o00M (Poison |cffffcc0010|r), Hotkey (Hotkey)
+// Units: o00N (Desolace |cffffcc003|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4729,7 +4549,7 @@ Multishot |cffffcc004|r
 }
 
 STRING 969
-// Units: o00N (Desolace |cffffcc003|r), Hotkey (Hotkey)
+// Units: o00O (Desolace |cffffcc004|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4762,7 +4582,7 @@ Multishot |cffffcc005|r
 }
 
 STRING 974
-// Units: o00O (Desolace |cffffcc004|r), Hotkey (Hotkey)
+// Units: o00P (Desolace |cffffcc005|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4795,7 +4615,7 @@ Multishot |cffffcc006|r
 }
 
 STRING 979
-// Units: o00P (Desolace |cffffcc005|r), Hotkey (Hotkey)
+// Units: o00Q (Desolace |cffffcc006|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4828,7 +4648,7 @@ Multishot |cffffcc007|r
 }
 
 STRING 984
-// Units: o00Q (Desolace |cffffcc006|r), Hotkey (Hotkey)
+// Units: o00R (Desolace |cffffcc007|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4861,7 +4681,7 @@ Multishot |cffffcc008|r
 }
 
 STRING 989
-// Units: o00R (Desolace |cffffcc007|r), Hotkey (Hotkey)
+// Units: o00S (Desolace |cffffcc008|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4894,7 +4714,7 @@ Multishot |cffffcc009|r
 }
 
 STRING 994
-// Units: o00S (Desolace |cffffcc008|r), Hotkey (Hotkey)
+// Units: o00T (Desolace |cffffcc009|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4927,7 +4747,7 @@ Multishot |cffffcc0010|r
 }
 
 STRING 999
-// Units: o00T (Desolace |cffffcc009|r), Hotkey (Hotkey)
+// Units: o00U (Desolace |cffffcc0010|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4960,7 +4780,7 @@ Lightning |cffffcc002|r
 }
 
 STRING 1004
-// Units: o00U (Desolace |cffffcc0010|r), Hotkey (Hotkey)
+// Units: o00V (Multishot |cffffcc002|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -4993,7 +4813,7 @@ Lightning |cffffcc003|r
 }
 
 STRING 1009
-// Units: o00V (Multishot |cffffcc002|r), Hotkey (Hotkey)
+// Units: o00W (Multishot |cffffcc003|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5026,7 +4846,7 @@ Lightning |cffffcc004|r
 }
 
 STRING 1014
-// Units: o00W (Multishot |cffffcc003|r), Hotkey (Hotkey)
+// Units: o00X (Multishot |cffffcc004|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5059,7 +4879,7 @@ Lightning |cffffcc005|r
 }
 
 STRING 1019
-// Units: o00X (Multishot |cffffcc004|r), Hotkey (Hotkey)
+// Units: o00Y (Multishot |cffffcc005|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5092,7 +4912,7 @@ Lightning |cffffcc006|r
 }
 
 STRING 1024
-// Units: o00Y (Multishot |cffffcc005|r), Hotkey (Hotkey)
+// Units: o00Z (Multishot |cffffcc006|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5125,7 +4945,7 @@ Lightning |cffffcc007|r
 }
 
 STRING 1029
-// Units: o00Z (Multishot |cffffcc006|r), Hotkey (Hotkey)
+// Units: o010 (Multishot |cffffcc007|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5158,7 +4978,7 @@ Lightning |cffffcc008|r
 }
 
 STRING 1034
-// Units: o010 (Multishot |cffffcc007|r), Hotkey (Hotkey)
+// Units: o011 (Multishot |cffffcc008|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5191,7 +5011,7 @@ Lightning |cffffcc009|r
 }
 
 STRING 1039
-// Units: o011 (Multishot |cffffcc008|r), Hotkey (Hotkey)
+// Units: o012 (Multishot |cffffcc009|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5224,7 +5044,7 @@ Lightning |cffffcc0010|r
 }
 
 STRING 1044
-// Units: o012 (Multishot |cffffcc009|r), Hotkey (Hotkey)
+// Units: o013 (Multishot |cffffcc0010|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5263,7 +5083,7 @@ Upgrade to |cffffcc00Frost 2|r
 }
 
 STRING 1050
-// Units: o013 (Multishot |cffffcc0010|r), Hotkey (Hotkey)
+// Units: h006 (Lightning |cffffcc002|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5296,7 +5116,7 @@ Upgrade to |cffffcc00Frost 3|r
 }
 
 STRING 1055
-// Units: h006 (Lightning |cffffcc002|r), Hotkey (Hotkey)
+// Units: h007 (Lightning |cffffcc003|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5329,7 +5149,7 @@ Upgrade to |cffffcc00Frost 4|r
 }
 
 STRING 1060
-// Units: h007 (Lightning |cffffcc003|r), Hotkey (Hotkey)
+// Units: h008 (Lightning |cffffcc004|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5362,7 +5182,7 @@ Upgrade to |cffffcc00Frost 5|r
 }
 
 STRING 1065
-// Units: h008 (Lightning |cffffcc004|r), Hotkey (Hotkey)
+// Units: h009 (Lightning |cffffcc005|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5395,7 +5215,7 @@ Upgrade to |cffffcc00Frost 6|r
 }
 
 STRING 1070
-// Units: h009 (Lightning |cffffcc005|r), Hotkey (Hotkey)
+// Units: h00B (Lightning |cffffcc006|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5428,7 +5248,7 @@ Upgrade to |cffffcc00Frost 7|r
 }
 
 STRING 1075
-// Units: h00B (Lightning |cffffcc006|r), Hotkey (Hotkey)
+// Units: h00C (Lightning |cffffcc007|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5461,7 +5281,7 @@ Upgrade to |cffffcc00Frost 8|r
 }
 
 STRING 1080
-// Units: h00C (Lightning |cffffcc007|r), Hotkey (Hotkey)
+// Units: h00D (Lightning |cffffcc008|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5494,7 +5314,7 @@ Upgrade to |cffffcc00Frost 9|r
 }
 
 STRING 1085
-// Units: h00D (Lightning |cffffcc008|r), Hotkey (Hotkey)
+// Units: h00E (Lightning |cffffcc009|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5527,7 +5347,7 @@ Upgrade to |cffffcc00Frost 10|r
 }
 
 STRING 1090
-// Units: h00E (Lightning |cffffcc009|r), Hotkey (Hotkey)
+// Units: h00F (Lightning |cffffcc0010|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5554,7 +5374,7 @@ STRING 1093
 }
 
 STRING 1094
-// Units: h00F (Lightning |cffffcc0010|r), Hotkey (Hotkey)
+// Units: h00G (Frost |cffffcc002|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5572,7 +5392,7 @@ Upgrade to |cffffcc00Siege 3|r
 }
 
 STRING 1097
-// Units: h00P (Siege |cffffcc003|r), Ubertip (Tooltip - Extended)
+// Units: h00Q (Siege |cffffcc004|r), Ubertip (Tooltip - Extended)
 {
 Siege Warden has |cffd45e19Siege|r attack type
 |cffffcc00Abilities:|r Sentry
@@ -5587,7 +5407,7 @@ STRING 1098
 }
 
 STRING 1099
-// Units: h00G (Frost |cffffcc002|r), Hotkey (Hotkey)
+// Units: h00H (Frost |cffffcc003|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5605,7 +5425,7 @@ Upgrade to |cffffcc00Siege 4|r
 }
 
 STRING 1102
-// Units: h00Q (Siege |cffffcc004|r), Ubertip (Tooltip - Extended)
+// Units: h00R (Siege |cffffcc005|r), Ubertip (Tooltip - Extended)
 {
 Siege Warden has |cffd45e19Siege|r attack type
 |cffffcc00Abilities:|r Sentry
@@ -5620,7 +5440,7 @@ STRING 1103
 }
 
 STRING 1104
-// Units: h00H (Frost |cffffcc003|r), Hotkey (Hotkey)
+// Units: h00I (Frost |cffffcc004|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5638,7 +5458,7 @@ Upgrade to |cffffcc00Siege 5|r
 }
 
 STRING 1107
-// Units: h00R (Siege |cffffcc005|r), Ubertip (Tooltip - Extended)
+// Units: h00S (Siege |cffffcc006|r), Ubertip (Tooltip - Extended)
 {
 Siege Warden has |cffd45e19Siege|r attack type
 |cffffcc00Abilities:|r Sentry
@@ -5653,7 +5473,7 @@ STRING 1108
 }
 
 STRING 1109
-// Units: h00I (Frost |cffffcc004|r), Hotkey (Hotkey)
+// Units: h00J (Frost |cffffcc005|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5671,7 +5491,7 @@ Upgrade to |cffffcc00Siege 6|r
 }
 
 STRING 1112
-// Units: h00S (Siege |cffffcc006|r), Ubertip (Tooltip - Extended)
+// Units: h00T (Siege |cffffcc007|r), Ubertip (Tooltip - Extended)
 {
 Siege Warden has |cffd45e19Siege|r attack type
 |cffffcc00Abilities:|r Sentry
@@ -5686,7 +5506,7 @@ STRING 1113
 }
 
 STRING 1114
-// Units: h00J (Frost |cffffcc005|r), Hotkey (Hotkey)
+// Units: h00K (Frost |cffffcc006|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5704,7 +5524,7 @@ Upgrade to |cffffcc00Siege 7|r
 }
 
 STRING 1117
-// Units: h00T (Siege |cffffcc007|r), Ubertip (Tooltip - Extended)
+// Units: h00U (Siege |cffffcc008|r), Ubertip (Tooltip - Extended)
 {
 Siege Warden has |cffd45e19Siege|r attack type
 |cffffcc00Abilities:|r Sentry
@@ -5719,7 +5539,7 @@ STRING 1118
 }
 
 STRING 1119
-// Units: h00K (Frost |cffffcc006|r), Hotkey (Hotkey)
+// Units: h00L (Frost |cffffcc007|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5737,7 +5557,7 @@ Upgrade to |cffffcc00Siege 8|r
 }
 
 STRING 1122
-// Units: h00U (Siege |cffffcc008|r), Ubertip (Tooltip - Extended)
+// Units: h00V (Siege |cffffcc009|r), Ubertip (Tooltip - Extended)
 {
 Siege Warden has |cffd45e19Siege|r attack type
 |cffffcc00Abilities:|r Sentry
@@ -5752,7 +5572,7 @@ STRING 1123
 }
 
 STRING 1124
-// Units: h00L (Frost |cffffcc007|r), Hotkey (Hotkey)
+// Units: h00M (Frost |cffffcc008|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5770,7 +5590,7 @@ Upgrade to |cffffcc00Siege 9|r
 }
 
 STRING 1127
-// Units: h00V (Siege |cffffcc009|r), Ubertip (Tooltip - Extended)
+// Units: h00W (Siege |cffffcc0010|r), Ubertip (Tooltip - Extended)
 {
 Siege Warden has |cffd45e19Siege|r attack type
 |cffffcc00Abilities:|r Sentry
@@ -5785,7 +5605,7 @@ STRING 1128
 }
 
 STRING 1129
-// Units: h00M (Frost |cffffcc008|r), Hotkey (Hotkey)
+// Units: h00N (Frost |cffffcc009|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -5800,15 +5620,6 @@ STRING 1131
 // Units: h00W (Siege |cffffcc0010|r), Tip (Tooltip - Basic)
 {
 Upgrade to |cffffcc00Siege 10|r
-}
-
-STRING 1132
-// Units: h00W (Siege |cffffcc0010|r), Ubertip (Tooltip - Extended)
-{
-Siege Warden has |cffd45e19Siege|r attack type
-|cffffcc00Abilities:|r Sentry
-
-|cffffcc00Attacks land units only|r
 }
 
 STRING 1133
@@ -6236,7 +6047,7 @@ Removes all buffs from units in a target area
 }
 
 STRING 1195
-// Units: h00N (Frost |cffffcc009|r), Hotkey (Hotkey)
+// Units: h00O (Frost |cffffcc0010|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -6248,7 +6059,7 @@ Gives friendly nearby units a |cffffcc00<<Aroa,DataA1,%>%|r bonus to damage. |nL
 }
 
 STRING 1197
-// Units: h00O (Frost |cffffcc0010|r), Hotkey (Hotkey)
+// Units: h00P (Siege |cffffcc003|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -6259,96 +6070,6 @@ STRING 1198
 Removes all buffs from units in a target area
 }
 
-STRING 1199
-// Units: o002 (Berserk |cffffcc001|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
-STRING 1200
-// Units: o005 (Berserk |cffffcc002|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
-STRING 1201
-// Units: o006 (Berserk |cffffcc003|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
-STRING 1202
-// Units: o007 (Berserk |cffffcc004|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
-STRING 1203
-// Units: o008 (Berserk |cffffcc005|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
-STRING 1204
-// Units: o009 (Berserk |cffffcc006|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
-STRING 1205
-// Units: o00A (Berserk |cffffcc007|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
-STRING 1206
-// Units: o00B (Berserk |cffffcc008|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
-STRING 1207
-// Units: o00C (Berserk |cffffcc009|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
-STRING 1208
-// Units: o00D (Berserk |cffffcc0010|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
 STRING 1209
 // Upgrades: R002 (Priest Adept Training,Priest Master Training), Name (Name)
 {
@@ -6356,31 +6077,31 @@ Arcane Power
 }
 
 STRING 1210
-// Units: h00P (Siege |cffffcc003|r), Hotkey (Hotkey)
-{
-Q
-}
-
-STRING 1211
 // Units: h00Q (Siege |cffffcc004|r), Hotkey (Hotkey)
 {
 Q
 }
 
-STRING 1212
+STRING 1211
 // Units: h00R (Siege |cffffcc005|r), Hotkey (Hotkey)
 {
 Q
 }
 
-STRING 1213
+STRING 1212
 // Units: h00S (Siege |cffffcc006|r), Hotkey (Hotkey)
 {
 Q
 }
 
-STRING 1214
+STRING 1213
 // Units: h00T (Siege |cffffcc007|r), Hotkey (Hotkey)
+{
+Q
+}
+
+STRING 1214
+// Units: h00U (Siege |cffffcc008|r), Hotkey (Hotkey)
 {
 Q
 }
@@ -7010,7 +6731,6 @@ Void Soul
 }
 
 STRING 1334
-// Units: h012 (Shadowed Soul), Ubertip (Tooltip - Extended)
 {
 |cffe1a800Hero|r attacks deal |cff00ff00150|r%
 |cff8c8c8cPierce|r attacks deal |cffff000050|r%
@@ -7019,31 +6739,31 @@ STRING 1334
 }
 
 STRING 1335
-// Units: h00U (Siege |cffffcc008|r), Hotkey (Hotkey)
-{
-Q
-}
-
-STRING 1336
 // Units: h00V (Siege |cffffcc009|r), Hotkey (Hotkey)
 {
 Q
 }
 
-STRING 1337
+STRING 1336
 // Units: h00W (Siege |cffffcc0010|r), Hotkey (Hotkey)
 {
 Q
 }
 
-STRING 1338
+STRING 1337
 // Abilities: Adcn (Disenchant), Hotkey (Hotkey - Normal)
 {
 Q
 }
 
-STRING 1339
+STRING 1338
 // Abilities: A00D (Disenchant), Hotkey (Hotkey - Normal)
+{
+Q
+}
+
+STRING 1339
+// Upgrades: R002 (Priest Adept Training,Priest Master Training), Hotkey (Hotkey)
 {
 Q
 }
@@ -7067,12 +6787,6 @@ Q
 }
 
 STRING 1343
-// Upgrades: R002 (Priest Adept Training,Priest Master Training), Hotkey (Hotkey)
-{
-Q
-}
-
-STRING 1344
 // Upgrades: R002 (Priest Adept Training,Priest Master Training), Hotkey (Hotkey)
 {
 Q
@@ -7122,14 +6836,6 @@ STRING 1351
 // Units: h012 (Shadowed Soul), Name (Name)
 {
 Shadowed Soul
-}
-
-STRING 1352
-{
-|cffe1a800Hero|r attacks deal |cff00ff00150|r%
-|cff8c8c8cPierce|r attacks deal |cffff000050|r%
-|cff8080ffMagical|r attacks deal |cffc0c0c0100|r%
-|cffd45e19Siege|r attacks deal |cffff000050|r%
 }
 
 STRING 1353
@@ -7184,5 +6890,1132 @@ STRING 1361
 // Doodads: D009 (Lumbermill), Name (Name)
 {
 Lumbermill
+}
+
+STRING 1362
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1363
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1366
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1367
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1368
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1369
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1370
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1371
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1372
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1373
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1374
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1375
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1376
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1377
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1378
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1379
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1380
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1381
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1382
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1383
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1384
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1385
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1386
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1387
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1388
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1389
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1390
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1391
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1392
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1393
+// Abilities: A00R (Boom), Tip (Tooltip - Normal)
+{
+Slam
+}
+
+STRING 1424
+// Abilities: A00S (Boom), EditorSuffix (Editor Suffix)
+{
+(dummy)
+}
+
+STRING 1426
+// Buffs/Effects: BHtc (), Buffubertip (Tooltip - Extended)
+{
+Unit's movement speed reduced
+}
+
+STRING 1458
+// Doodads: D00A (Bomb), Name (Name)
+{
+Bomb
+}
+
+STRING 1459
+// Units: o002 (Berserk |cffffcc001|r), Hotkey (Hotkey)
+{
+A
+}
+
+STRING 1460
+// Units: h003 (Siege |cffffcc001|r), Ubertip (Tooltip - Extended)
+{
+Siege Warden has |cffd45e19Siege|r attack type
+|cffffcc00Abilities:|r Boom, Sentry
+
+|cffffcc00Attacks land units only|r
+}
+
+STRING 1461
+// Abilities: A00R (Boom), Name (Name)
+{
+Boom
+}
+
+STRING 1462
+// Abilities: A00S (Boom), Name (Name)
+{
+Boom
+}
+
+STRING 1463
+// Buffs/Effects: BHtc (), Bufftip (Tooltip)
+{
+Boom
+}
+
+STRING 1464
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA1>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC1,%>%|r
+
+}
+
+STRING 1465
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA2>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC2,%>%|r
+
+
+}
+
+STRING 1466
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA3>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC3,%>%|r
+
+
+}
+
+STRING 1467
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA4>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC4,%>%|r
+
+
+}
+
+STRING 1468
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA5>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC5,%>%|r
+
+
+}
+
+STRING 1469
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA6>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC6,%>%|r
+
+
+}
+
+STRING 1470
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA7>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC7,%>%|r
+
+
+}
+
+STRING 1471
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA8>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC8,%>%|r
+
+
+}
+
+STRING 1472
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA9>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC9,%>%|r
+
+
+}
+
+STRING 1473
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA10>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC10,%>%|r
+
+
+}
+
+STRING 1474
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA11>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC11,%>%|r
+
+
+}
+
+STRING 1475
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA12>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC12,%>%|r
+
+
+}
+
+STRING 1476
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA13>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC13,%>%|r
+
+
+}
+
+STRING 1477
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA14>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC14,%>%|r
+
+
+}
+
+STRING 1478
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA15>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC15,%>%|r
+
+
+}
+
+STRING 1479
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA16>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC16,%>%|r
+
+
+}
+
+STRING 1480
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA17>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC17,%>%|r
+
+
+}
+
+STRING 1481
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA18>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC18,%>%|r
+
+
+}
+
+STRING 1482
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA19>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC19,%>%|r
+
+
+}
+
+STRING 1483
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA20>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC20,%>%|r
+
+
+}
+
+STRING 1484
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA21>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC21,%>%|r
+
+
+}
+
+STRING 1485
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA22>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC23,%>%|r
+
+
+}
+
+STRING 1486
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA23>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC23,%>%|r
+
+
+}
+
+STRING 1487
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA24>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC24,%>%|r
+
+
+}
+
+STRING 1488
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA25>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC25,%>%|r
+}
+
+STRING 1489
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA26>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC26,%>%|r
+
+
+}
+
+STRING 1490
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA27>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC27,%>%|r
+
+
+}
+
+STRING 1491
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA28>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC28,%>%|r
+
+
+}
+
+STRING 1492
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA29>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC29,%>%|r
+
+
+}
+
+STRING 1493
+// Abilities: A00R (Boom), Ubertip (Tooltip - Normal - Extended)
+{
+Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA30>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC30,%>%|r
+
+
+}
+
+STRING 1494
+// Units: h000 (Wailing Soul), Ubertip (Tooltip - Extended)
+{
+|cffe1a800Hero|r attacks deal |cff00ff00150|r%
+|cff8c8c8cPierce|r attacks deal |cffff000050|r%
+|cff8080ffMagical|r attacks deal |cffc0c0c0100|r%
+|cffd45e19Siege|r attacks deal |cffff000050|r%
+
+|cffe1a800Unarmored|r takes |cffc0c0c0100|r%
+|cff8c8c8cLight Armor|r takes |cffff000050|r%
+|cff8080ffHeavy Armor|r takes |cff00ff00150|r%
+|cffd45e19Fortified|r takes |cffff000050|r%
+}
+
+STRING 1495
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB1>|r damage to the target, and |cffffcc00<A008:AUfn,DataA1>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1496
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB2>|r damage to the target, and |cffffcc00<A008:AUfn,DataA2>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1497
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB3>|r damage to the target, and |cffffcc00<A008:AUfn,DataA3>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1498
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB4>|r damage to the target, and |cffffcc00<A008:AUfn,DataA4>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1499
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB5>|r damage to the target, and |cffffcc00<A008:AUfn,DataA5>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1500
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB6>|r damage to the target, and |cffffcc00<A008:AUfn,DataA6>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1501
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB7>|r damage to the target, and |cffffcc00<A008:AUfn,DataA7>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1502
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB8>|r damage to the target, and |cffffcc00<A008:AUfn,DataA8>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1503
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB9>|r damage to the target, and |cffffcc00<A008:AUfn,DataA9>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1504
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB10>|r damage to the target, and |cffffcc00<A008:AUfn,DataA10>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1505
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB11>|r damage to the target, and |cffffcc00<A008:AUfn,DataA11>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1506
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB12>|r damage to the target, and |cffffcc00<A008:AUfn,DataA12>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1507
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB13>|r damage to the target, and |cffffcc00<A008:AUfn,DataA13>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1508
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB14>|r damage to the target, and |cffffcc00<A008:AUfn,DataA14>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1509
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB15>|r damage to the target, and |cffffcc00<A008:AUfn,DataA15>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1510
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB16>|r damage to the target, and |cffffcc00<A008:AUfn,DataA16>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1511
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB17>|r damage to the target, and |cffffcc00<A008:AUfn,DataA17>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1512
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB18>|r damage to the target, and |cffffcc00<A008:AUfn,DataA18>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1513
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB19>|r damage to the target, and |cffffcc00<A008:AUfn,DataA19>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1514
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB20>|r damage to the target, and |cffffcc00<A008:AUfn,DataA20>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1515
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB21>|r damage to the target, and |cffffcc00<A008:AUfn,DataA21>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1516
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB22>|r damage to the target, and |cffffcc00<A008:AUfn,DataA22>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1517
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB23>|r damage to the target, and |cffffcc00<A008:AUfn,DataA23>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1518
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB24>|r damage to the target, and |cffffcc00<A008:AUfn,DataA24>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1519
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB25>|r damage to the target, and |cffffcc00<A008:AUfn,DataA25>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1520
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB26>|r damage to the target, and |cffffcc00<A008:AUfn,DataA26>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1521
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB27>|r damage to the target, and |cffffcc00<A008:AUfn,DataA27>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1522
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB28>|r damage to the target, and |cffffcc00<A008:AUfn,DataA28>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1523
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB29>|r damage to the target, and |cffffcc00<A008:AUfn,DataA29>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1524
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB30>|r damage to the target, and |cffffcc00<A008:AUfn,DataA30>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1525
+{
+Info (|Cfffed312F9|R)
+}
+
+STRING 1526
+{
+Gold earns from defeating creeps
+}
+
+STRING 1527
+{
+Has a chance to obtain on dead creeps
+}
+
+STRING 1528
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1529
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1530
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1531
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1532
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1533
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1534
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1535
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1536
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1537
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1538
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1539
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1540
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1541
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1542
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1543
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1544
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1545
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1546
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1547
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1548
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1549
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1550
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1551
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1552
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1553
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1554
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1555
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1556
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1557
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1558
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA1>%|r chance that an attack will stun the target
+}
+
+STRING 1559
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA3>%|r chance that an attack will stun the target
+}
+
+STRING 1560
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA2>%|r chance that an attack will stun the target
+}
+
+STRING 1561
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA4>%|r chance that an attack will stun the target
+}
+
+STRING 1562
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA5>%|r chance that an attack will stun the target
+}
+
+STRING 1563
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA6>%|r chance that an attack will stun the target
+}
+
+STRING 1564
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA7>%|r chance that an attack will stun the target
+}
+
+STRING 1565
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA8>%|r chance that an attack will stun the target
+}
+
+STRING 1566
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA9>%|r chance that an attack will stun the target
+}
+
+STRING 1567
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA10>%|r chance that an attack will stun the target
+}
+
+STRING 1568
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA11>%|r chance that an attack will stun the target
+}
+
+STRING 1569
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA12>%|r chance that an attack will stun the target
+}
+
+STRING 1570
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA13>%|r chance that an attack will stun the target
+}
+
+STRING 1571
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA14>%|r chance that an attack will stun the target
+}
+
+STRING 1572
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA15>%|r chance that an attack will stun the target
+}
+
+STRING 1573
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA16>%|r chance that an attack will stun the target
+}
+
+STRING 1574
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA17>%|r chance that an attack will stun the target
+}
+
+STRING 1575
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA18>%|r chance that an attack will stun the target
+}
+
+STRING 1576
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA19>%|r chance that an attack will stun the target
+}
+
+STRING 1577
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA20>%|r chance that an attack will stun the target
+}
+
+STRING 1578
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA21>%|r chance that an attack will stun the target
+}
+
+STRING 1579
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA22>%|r chance that an attack will stun the target
+}
+
+STRING 1580
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA23>%|r chance that an attack will stun the target
+}
+
+STRING 1581
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA24>%|r chance that an attack will stun the target
+}
+
+STRING 1582
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA25>%|r chance that an attack will stun the target
+}
+
+STRING 1583
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA26>%|r chance that an attack will stun the target
+}
+
+STRING 1584
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA27>%|r chance that an attack will stun the target
+}
+
+STRING 1585
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA28>%|r chance that an attack will stun the target
+}
+
+STRING 1586
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA29>%|r chance that an attack will stun the target
+}
+
+STRING 1587
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA30>%|r chance that an attack will stun the target
+}
+
+STRING 1588
+// Units: o002 (Berserk |cffffcc001|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1589
+// Units: o005 (Berserk |cffffcc002|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1590
+// Units: o006 (Berserk |cffffcc003|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1591
+// Units: o007 (Berserk |cffffcc004|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1592
+// Units: o008 (Berserk |cffffcc005|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1593
+// Units: o009 (Berserk |cffffcc006|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1594
+// Units: o00A (Berserk |cffffcc007|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1595
+// Units: o00B (Berserk |cffffcc008|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1596
+// Units: o00C (Berserk |cffffcc009|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1597
+// Units: o00D (Berserk |cffffcc0010|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
 }
 

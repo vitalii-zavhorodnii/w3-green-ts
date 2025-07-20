@@ -6070,96 +6070,6 @@ STRING 1198
 Removes all buffs from units in a target area
 }
 
-STRING 1199
-// Units: o002 (Berserk |cffffcc001|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
-STRING 1200
-// Units: o005 (Berserk |cffffcc002|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
-STRING 1201
-// Units: o006 (Berserk |cffffcc003|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
-STRING 1202
-// Units: o007 (Berserk |cffffcc004|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
-STRING 1203
-// Units: o008 (Berserk |cffffcc005|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
-STRING 1204
-// Units: o009 (Berserk |cffffcc006|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
-STRING 1205
-// Units: o00A (Berserk |cffffcc007|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
-STRING 1206
-// Units: o00B (Berserk |cffffcc008|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
-STRING 1207
-// Units: o00C (Berserk |cffffcc009|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
-STRING 1208
-// Units: o00D (Berserk |cffffcc0010|r), Ubertip (Tooltip - Extended)
-{
-Warden Berserk has |cff8c8c8cPierce|r attack type.
-|cffffcc00Abilities:|r Frenzy, Sentry
-
-|cffffcc00Attacks land and air units|r
-}
-
 STRING 1209
 // Upgrades: R002 (Priest Adept Training,Priest Master Training), Name (Name)
 {
@@ -7657,5 +7567,461 @@ Gold earns from defeating creeps
 STRING 1527
 {
 Has a chance to obtain on dead creeps
+}
+
+STRING 1528
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1529
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1530
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1531
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1532
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1533
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1534
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1535
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1536
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1537
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1538
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1539
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1540
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1541
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1542
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1543
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1544
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1545
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1546
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1547
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1548
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1549
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1550
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1551
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1552
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1553
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1554
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1555
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1556
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1557
+// Abilities: A00T (Bash), Tip (Tooltip - Normal)
+{
+Bash
+}
+
+STRING 1558
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA1>%|r chance that an attack will stun the target
+}
+
+STRING 1559
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA3>%|r chance that an attack will stun the target
+}
+
+STRING 1560
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA2>%|r chance that an attack will stun the target
+}
+
+STRING 1561
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA4>%|r chance that an attack will stun the target
+}
+
+STRING 1562
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA5>%|r chance that an attack will stun the target
+}
+
+STRING 1563
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA6>%|r chance that an attack will stun the target
+}
+
+STRING 1564
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA7>%|r chance that an attack will stun the target
+}
+
+STRING 1565
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA8>%|r chance that an attack will stun the target
+}
+
+STRING 1566
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA9>%|r chance that an attack will stun the target
+}
+
+STRING 1567
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA10>%|r chance that an attack will stun the target
+}
+
+STRING 1568
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA11>%|r chance that an attack will stun the target
+}
+
+STRING 1569
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA12>%|r chance that an attack will stun the target
+}
+
+STRING 1570
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA13>%|r chance that an attack will stun the target
+}
+
+STRING 1571
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA14>%|r chance that an attack will stun the target
+}
+
+STRING 1572
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA15>%|r chance that an attack will stun the target
+}
+
+STRING 1573
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA16>%|r chance that an attack will stun the target
+}
+
+STRING 1574
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA17>%|r chance that an attack will stun the target
+}
+
+STRING 1575
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA18>%|r chance that an attack will stun the target
+}
+
+STRING 1576
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA19>%|r chance that an attack will stun the target
+}
+
+STRING 1577
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA20>%|r chance that an attack will stun the target
+}
+
+STRING 1578
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA21>%|r chance that an attack will stun the target
+}
+
+STRING 1579
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA22>%|r chance that an attack will stun the target
+}
+
+STRING 1580
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA23>%|r chance that an attack will stun the target
+}
+
+STRING 1581
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA24>%|r chance that an attack will stun the target
+}
+
+STRING 1582
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA25>%|r chance that an attack will stun the target
+}
+
+STRING 1583
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA26>%|r chance that an attack will stun the target
+}
+
+STRING 1584
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA27>%|r chance that an attack will stun the target
+}
+
+STRING 1585
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA28>%|r chance that an attack will stun the target
+}
+
+STRING 1586
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA29>%|r chance that an attack will stun the target
+}
+
+STRING 1587
+// Abilities: A00T (Bash), Ubertip (Tooltip - Normal - Extended)
+{
+Gives a |cffffcc00<A00T:AHbh,DataA30>%|r chance that an attack will stun the target
+}
+
+STRING 1588
+// Units: o002 (Berserk |cffffcc001|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1589
+// Units: o005 (Berserk |cffffcc002|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1590
+// Units: o006 (Berserk |cffffcc003|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1591
+// Units: o007 (Berserk |cffffcc004|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1592
+// Units: o008 (Berserk |cffffcc005|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1593
+// Units: o009 (Berserk |cffffcc006|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1594
+// Units: o00A (Berserk |cffffcc007|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1595
+// Units: o00B (Berserk |cffffcc008|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1596
+// Units: o00C (Berserk |cffffcc009|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1597
+// Units: o00D (Berserk |cffffcc0010|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1598
+// Units: o014 (Felguard), Name (Name)
+{
+Felguard
 }
 

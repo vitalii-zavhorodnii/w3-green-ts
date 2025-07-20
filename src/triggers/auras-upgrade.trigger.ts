@@ -9,11 +9,11 @@ export default function aurasUpgradeTrigger(altar: Unit) {
     const unit = Unit.fromEvent() as Unit;
     const researchId = GetResearched();
 
-    for (let i = 0; i < GAME.upgrades.length; i++) {
-      if (researchId === FourCC(GAME.upgrades[i].upgradeId)) {
+    for (const upgrade of GAME.upgrades) {
+      if (researchId === FourCC(upgrade.upgradeId)) {
         const level = unit.owner.getTechCount(researchId, false);
 
-        altar.setAbilityLevel(FourCC(GAME.upgrades[i].spellId), level);
+        altar.setAbilityLevel(FourCC(upgrade.spellId), level);
       }
     }
   }

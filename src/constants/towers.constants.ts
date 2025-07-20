@@ -2,7 +2,7 @@ export const TOWERS = [
   {
     comment: 'Berserk',
     type: 1,
-    spells: ['A00C:Agyv', 'A00L:Adts']
+    spells: ['A00C:Agyv', 'A00T:AHbh']
   },
   {
     comment: 'Siege',

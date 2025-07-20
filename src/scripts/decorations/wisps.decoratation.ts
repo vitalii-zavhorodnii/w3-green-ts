@@ -1,36 +1,33 @@
 import { Destructable, MapPlayer, Unit } from 'w3ts';
 import { OrderId } from 'w3ts/globals';
 
+import { DECOR } from '@constants/decorations.constants';
 import { GAME } from '@constants/game.constants';
 
-const WISP = FourCC('ewsp');
-const LOCATIONS = [
-  [-3528.6, -656.1, FourCC('B000')],
-  [-3395.5, 453.5, FourCC('B000')],
-  [-2389.6, -270, FourCC('B000')]
-];
-
 export default function wispsDeocration() {
-  const player = MapPlayer.fromIndex(GAME.decorPlayerId);
+  const player = MapPlayer.fromIndex(GAME.enemyPlayerId) as MapPlayer;
 
-  if (player) {
-    for (let i = 0; i < LOCATIONS.length; i++) {
-      const unit = Unit.create(player, WISP, LOCATIONS[i][0], LOCATIONS[i][1], 0);
-      unit?.setPathing(false);
+  for (const loc of DECOR.wisps.unitsSpawns) {
+    const wisp = Unit.create(
+      player,
+      FourCC(DECOR.wisps.unitId),
+      loc[0],
+      loc[1],
+      0
+    ) as Unit;
 
-      const tree = Destructable.create(
-        LOCATIONS[i][2],
-        LOCATIONS[i][0],
-        LOCATIONS[i][1],
-        1,
-        1,
-        10
-      );
+    wisp.invulnerable = true;
+    wisp.setPathing(false);
 
-      if (tree && unit) {
-        unit.invulnerable = true;
-        unit.issueTargetOrder(OrderId.Harvest, tree);
-      }
-    }
+    const tree = Destructable.create(
+      FourCC(DECOR.wisps.decorId),
+      loc[0],
+      loc[1],
+      1,
+      1,
+      10
+    ) as Destructable;
+
+    wisp.issueTargetOrder(OrderId.Harvest, tree);
   }
 }

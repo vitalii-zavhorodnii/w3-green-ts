@@ -16,6 +16,7 @@ import boomSpell from '@spells/boom';
 import freezingShotSpell from '@spells/freezing-shot.spell';
 import lightningStrikeSpell from '@spells/lightning-strike.spell';
 
+import felguardDecoration from '@decorations/felguard.decoration';
 import necromantDecoration from '@decorations/necromant/necromant.decoration';
 import shadeDecoration from '@decorations/shade.decoration';
 import treantDecoration from '@decorations/treant.decoration';
@@ -36,6 +37,7 @@ export default function preparationSegment() {
   treantDecoration();
   necromantDecoration();
   shadeDecoration();
+  felguardDecoration();
 
   // Register triggers
   autoBuildTrigger();

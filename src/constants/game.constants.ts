@@ -4,14 +4,15 @@ export const GAME = {
   decorPlayerId: 6, // 6
   startGold: 180, // 180
   startWood: 0, // 0
-  startSegmentTimer: 15, // 30
-  capPerPlayer: 5, // 50
-  extentionsRound: 3, // 3
+  startSegmentTimer: 30, // 30
+  capPerPlayer: 50, // 50
+  extentionsRound: 3, // 3 do not set lower then 1
   dummyId: 'u000:ushd',
   sanctumId: 'h00X:hars',
   altarId: 'h00Y:hars',
   accentColor: { code: '|cffffcc00', rgb: { r: 255, g: 204, b: 0 } },
   capColor: { code: '|cff939596', rgb: { r: 147, g: 149, b: 150 } },
+  lootTable: ['I000:gold', 'I001:lmbr'],
   playerColor: [
     { name: 'Red', rgb: { r: 255, g: 3, b: 3 }, code: '|cffff0303' },
     { name: 'Blue', rgb: { r: 0, g: 66, b: 255 }, code: '|cff0042ff' },
@@ -44,7 +45,6 @@ export const GAME = {
     [2172.2, -2375.0],
     [5501.4, -2375.0]
   ],
-  lootTable: ['I000:gold', 'I001:lmbr'],
   upgrades: [
     { upgradeId: 'R005:Rhst', spellId: 'A00H:AOae', name: 'aura haste' },
     { upgradeId: 'R004:Rhst', spellId: 'A00G:Aakb', name: 'aura strength' }

@@ -4,6 +4,7 @@ gg_rct_MoonLight02 = nil
 gg_rct_CityRegion = nil
 gg_rct_FogDecor01 = nil
 gg_rct_Region_005 = nil
+gg_rct_Region_006 = nil
 function InitGlobals()
 end
 
@@ -27,6 +28,9 @@ we = AddWeatherEffect(gg_rct_FogDecor01, FourCC("FDwh"))
 EnableWeatherEffect(we, true)
 gg_rct_Region_005 = Rect(1888.0, -128.0, 2624.0, 128.0)
 we = AddWeatherEffect(gg_rct_Region_005, FourCC("FDwh"))
+EnableWeatherEffect(we, true)
+gg_rct_Region_006 = Rect(7136.0, -160.0, 7776.0, 128.0)
+we = AddWeatherEffect(gg_rct_Region_006, FourCC("LRma"))
 EnableWeatherEffect(we, true)
 end
 
@@ -303,8 +307,8 @@ DefineStartLocation(2, 5376.0, 1792.0)
 DefineStartLocation(3, -1280.0, -1792.0)
 DefineStartLocation(4, 2048.0, -1792.0)
 DefineStartLocation(5, 5376.0, -1792.0)
-DefineStartLocation(6, -3328.0, 0.0)
-DefineStartLocation(7, 7424.0, 0.0)
+DefineStartLocation(6, -1536.0, 0.0)
+DefineStartLocation(7, 5632.0, 0.0)
 InitCustomPlayerSlots()
 InitCustomTeams()
 InitAllyPriorities()

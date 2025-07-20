@@ -20,15 +20,13 @@ export default function autoUpgradeTrigger() {
 
       createVFX(VFX.HolyBolt, unit.x, unit.y);
 
-      for (let i = 0; i < TOWERS.length; i++) {
-        if (type === TOWERS[i].type) {
-          for (let x = 0; x < TOWERS[i].spells.length; x++) {
-            const spellId = FourCC(TOWERS[i].spells[x]);
+      for (const tower of TOWERS) {
+        if (type === tower.type) {
+          for (const spell of tower.spells) {
+            const spellId = FourCC(spell);
 
             unit.setAbilityLevel(spellId, level);
           }
-
-          return;
         }
       }
     }
