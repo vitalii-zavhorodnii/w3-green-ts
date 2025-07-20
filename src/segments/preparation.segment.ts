@@ -7,9 +7,9 @@ import checkOverCapTrigger from '@triggers/check-overcap.trigger';
 import creepLootTrigger from '@triggers/creep-loot.trigger';
 import creepsCleanTrigger from '@triggers/creeps-clean.trigger';
 
+import createQuestLog from '@scripts/create-questlog';
 import runTimer from '@scripts/helpers/run-timer';
 import playersSettings from '@scripts/players-settings';
-import createQuestLog from '@scripts/quests/create-questlog';
 
 import bloodlustSpell from '@spells/bloodlust.spell';
 import boomSpell from '@spells/boom';

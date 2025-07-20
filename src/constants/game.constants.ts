@@ -4,8 +4,8 @@ export const GAME = {
   decorPlayerId: 6, // 6
   startGold: 180, // 180
   startWood: 0, // 0
-  startSegmentTimer: 3, // 30
-  capPerPlayer: 50, // 50
+  startSegmentTimer: 15, // 30
+  capPerPlayer: 5, // 50
   extentionsRound: 3, // 3
   dummyId: 'u000:ushd',
   sanctumId: 'h00X:hars',
