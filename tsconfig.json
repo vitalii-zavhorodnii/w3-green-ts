@@ -9,13 +9,15 @@
     "lib": ["ESNext"],
     "moduleResolution": "node",
     "paths": {
+      "*": ["./src/*"],
+      "@/*": ["src/*"],
       "@scripts/*": ["./src/scripts/*"],
       "@helpers/*": ["./src/scripts/helpers/*"],
-      "@constants/*": ["./src/constants/*"],
+      "@decorations/*": ["./src/scripts/decorations/*"],
       "@triggers/*": ["./src/triggers/*"],
       "@spells/*": ["./src/spells/*"],
       "@segments/*": ["./src/segments/*"],
-      "@decorations/*": ["./src/scripts/decorations/*"],
+      "@constants/*": ["./src/constants/*"],
       "@objectdata/*": [
         "./node_modules/war3-objectdata-th/dist/cjs/generated/constants/*"
       ]
