@@ -8,6 +8,7 @@ import creepsCleanTrigger from '@triggers/creeps-clean.trigger';
 
 import runTimer from '@scripts/helpers/run-timer';
 import playersSettings from '@scripts/players-settings';
+import createQuestLog from '@scripts/quests/create-questlog';
 
 import bloodlustSpell from '@spells/bloodlust.spell';
 import boomSpell from '@spells/boom';
@@ -50,6 +51,7 @@ export default function preparationSegment() {
   // Create players and apply settings
   playersSettings();
   creepLootTrigger();
+  createQuestLog();
 
   // Activate main game segment
   runTimer(gameSegment, GAME.startSegmentTimer, false, 'Preparation');

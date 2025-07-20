@@ -6,18 +6,32 @@
     "baseUrl": "./",
     "forceConsistentCasingInFileNames": true,
     "target": "ESNext",
-    "lib": ["ESNext"],
+    "lib": [
+      "ESNext"
+    ],
     "moduleResolution": "node",
     "paths": {
-      "*": ["./src/*"],
-      "@/*": ["src/*"],
-      "@scripts/*": ["./src/scripts/*"],
-      "@helpers/*": ["./src/scripts/helpers/*"],
-      "@decorations/*": ["./src/scripts/decorations/*"],
-      "@triggers/*": ["./src/triggers/*"],
-      "@spells/*": ["./src/spells/*"],
-      "@segments/*": ["./src/segments/*"],
-      "@constants/*": ["./src/constants/*"],
+      "@scripts/*": [
+        "./src/scripts/*"
+      ],
+      "@helpers/*": [
+        "./src/scripts/helpers/*"
+      ],
+      "@decorations/*": [
+        "./src/scripts/decorations/*"
+      ],
+      "@triggers/*": [
+        "./src/triggers/*"
+      ],
+      "@spells/*": [
+        "./src/spells/*"
+      ],
+      "@segments/*": [
+        "./src/segments/*"
+      ],
+      "@constants/*": [
+        "./src/constants/*"
+      ],
       "@objectdata/*": [
         "./node_modules/war3-objectdata-th/dist/cjs/generated/constants/*"
       ]
@@ -25,9 +39,9 @@
     "plugins": [
       {
         "transform": "war3-transformer",
-        "mapDir": "D:/development/w3-green-ts/maps/green_ts.w3x",
+        "mapDir": "D:/development/w3-green-ts/maps/map.w3x",
         "entryFile": "D:/development/w3-green-ts/src/main.ts",
-        "outputDir": "D:/development/w3-green-ts/dist/green_ts.w3x"
+        "outputDir": "D:/development/w3-green-ts/dist/map.w3x"
       }
     ],
     "types": [
@@ -46,7 +60,9 @@
       "war3-objectdata-th/dist/cjs/objectdata"
     ]
   },
-  "include": ["src"],
+  "include": [
+    "src"
+  ],
   "exclude": [],
   "tstl": {
     "luaTarget": "5.3",
@@ -56,6 +72,9 @@
     "luaBundle": "dist/tstl_output.lua",
     "luaBundleEntry": "./src/main.ts",
     "sourceMapTraceback": false,
-    "noResolvePaths": ["typescript", "typescript-to-lua"]
+    "noResolvePaths": [
+      "typescript",
+      "typescript-to-lua"
+    ]
   }
 }

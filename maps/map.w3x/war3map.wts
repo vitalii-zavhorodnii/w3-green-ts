@@ -213,7 +213,7 @@ S
 }
 
 STRING 100
-// Units: h000 (Wailing Soul), Ubertip (Tooltip - Extended)
+// Units: h00Z (Void Soul), Ubertip (Tooltip - Extended)
 {
 |cffe1a800Hero|r attacks deal |cff00ff00150|r%
 |cff8c8c8cPierce|r attacks deal |cffff000050|r%
@@ -254,7 +254,7 @@ STRING 108
 }
 
 STRING 109
-// Units: h00Z (Void Soul), Ubertip (Tooltip - Extended)
+// Units: h010 (Dark Soul), Ubertip (Tooltip - Extended)
 {
 |cffe1a800Hero|r attacks deal |cff00ff00150|r%
 |cff8c8c8cPierce|r attacks deal |cffff000050|r%
@@ -279,7 +279,7 @@ STRING 112
 }
 
 STRING 113
-// Units: h010 (Dark Soul), Ubertip (Tooltip - Extended)
+// Units: h011 (Vengeful Soul), Ubertip (Tooltip - Extended)
 {
 |cffe1a800Hero|r attacks deal |cff00ff00150|r%
 |cff8c8c8cPierce|r attacks deal |cffff000050|r%
@@ -1733,14 +1733,8 @@ STRING 423
 (dummy)
 }
 
-STRING 425
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB1>|r damage to the target, and |cffffcc00<AUfn,DataA1>|r nova damage. Cold damage slows units' movement
-}
-
 STRING 427
-// Units: h011 (Vengeful Soul), Ubertip (Tooltip - Extended)
+// Units: h012 (Shadowed Soul), Ubertip (Tooltip - Extended)
 {
 |cffe1a800Hero|r attacks deal |cff00ff00150|r%
 |cff8c8c8cPierce|r attacks deal |cffff000050|r%
@@ -3585,12 +3579,6 @@ STRING 749
 Deals |cffffcc00<A009:Aven,DataA30>|r poison damage per second
 }
 
-STRING 750
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB2>|r damage to the target, and |cffffcc00<AUfn,DataA2>|r nova damage. Cold damage slows units' movement
-}
-
 STRING 751
 // Abilities: A00M (Frost Nova), Tip (Tooltip - Normal)
 {
@@ -3763,174 +3751,6 @@ STRING 779
 // Abilities: A00M (Frost Nova), Tip (Tooltip - Normal)
 {
 Frost Nova
-}
-
-STRING 780
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB3>|r damage to the target, and |cffffcc00<AUfn,DataA3>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 781
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB4>|r damage to the target, and |cffffcc00<AUfn,DataA4>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 782
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB5>|r damage to the target, and |cffffcc00<AUfn,DataA5>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 783
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB6>|r damage to the target, and |cffffcc00<AUfn,DataA6>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 784
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB7>|r damage to the target, and |cffffcc00<AUfn,DataA7>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 785
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB8>|r damage to the target, and |cffffcc00<AUfn,DataA8>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 786
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB9>|r damage to the target, and |cffffcc00<AUfn,DataA9>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 787
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB10>|r damage to the target, and |cffffcc00<AUfn,DataA10>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 788
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB11>|r damage to the target, and |cffffcc00<AUfn,DataA11>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 789
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB12>|r damage to the target, and |cffffcc00<AUfn,DataA12>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 790
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB13>|r damage to the target, and |cffffcc00<AUfn,DataA13>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 791
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB14>|r damage to the target, and |cffffcc00<AUfn,DataA14>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 792
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB15>|r damage to the target, and |cffffcc00<AUfn,DataA15>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 793
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB16>|r damage to the target, and |cffffcc00<AUfn,DataA16>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 794
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB17>|r damage to the target, and |cffffcc00<AUfn,DataA17>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 795
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB18>|r damage to the target, and |cffffcc00<AUfn,DataA18>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 796
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB19>|r damage to the target, and |cffffcc00<AUfn,DataA19>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 797
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB20>|r damage to the target, and |cffffcc00<AUfn,DataA20>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 798
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB21>|r damage to the target, and |cffffcc00<AUfn,DataA21>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 799
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB22>|r damage to the target, and |cffffcc00<AUfn,DataA22>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 800
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB23>|r damage to the target, and |cffffcc00<AUfn,DataA23>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 801
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB24>|r damage to the target, and |cffffcc00<AUfn,DataA24>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 802
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB25>|r damage to the target, and |cffffcc00<AUfn,DataA25>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 803
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB26>|r damage to the target, and |cffffcc00<AUfn,DataA26>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 804
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB27>|r damage to the target, and |cffffcc00<AUfn,DataA27>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 805
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB28>|r damage to the target, and |cffffcc00<AUfn,DataA28>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 806
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB29>|r damage to the target, and |cffffcc00<AUfn,DataA29>|r nova damage. Cold damage slows units' movement
-}
-
-STRING 807
-// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
-{
-Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB30>|r damage to the target, and |cffffcc00<AUfn,DataA30>|r nova damage. Cold damage slows units' movement
 }
 
 STRING 808
@@ -7001,7 +6821,6 @@ Void Soul
 }
 
 STRING 1334
-// Units: h012 (Shadowed Soul), Ubertip (Tooltip - Extended)
 {
 |cffe1a800Hero|r attacks deal |cff00ff00150|r%
 |cff8c8c8cPierce|r attacks deal |cffff000050|r%
@@ -7107,14 +6926,6 @@ STRING 1351
 // Units: h012 (Shadowed Soul), Name (Name)
 {
 Shadowed Soul
-}
-
-STRING 1352
-{
-|cffe1a800Hero|r attacks deal |cff00ff00150|r%
-|cff8c8c8cPierce|r attacks deal |cffff000050|r%
-|cff8080ffMagical|r attacks deal |cffc0c0c0100|r%
-|cffd45e19Siege|r attacks deal |cffff000050|r%
 }
 
 STRING 1353
@@ -7637,5 +7448,214 @@ STRING 1493
 Inflicts debuff on enemy, on explode cursed unit has a chance to explode and deal |cffffcc00<A00S:AHtc,DataA30>|r damage to the targets in small area and slow movement speed by |cffffcc00<A00S:AHtc,DataC30,%>%|r
 
 
+}
+
+STRING 1494
+// Units: h000 (Wailing Soul), Ubertip (Tooltip - Extended)
+{
+|cffe1a800Hero|r attacks deal |cff00ff00150|r%
+|cff8c8c8cPierce|r attacks deal |cffff000050|r%
+|cff8080ffMagical|r attacks deal |cffc0c0c0100|r%
+|cffd45e19Siege|r attacks deal |cffff000050|r%
+
+|cffe1a800Unarmored|r takes |cffc0c0c0100|r%
+|cff8c8c8cLight Armor|r takes |cffff000050|r%
+|cff8080ffHeavy Armor|r takes |cff00ff00150|r%
+|cffd45e19Fortified|r takes |cffff000050|r%
+}
+
+STRING 1495
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB1>|r damage to the target, and |cffffcc00<A008:AUfn,DataA1>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1496
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB2>|r damage to the target, and |cffffcc00<A008:AUfn,DataA2>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1497
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB3>|r damage to the target, and |cffffcc00<A008:AUfn,DataA3>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1498
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB4>|r damage to the target, and |cffffcc00<A008:AUfn,DataA4>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1499
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB5>|r damage to the target, and |cffffcc00<A008:AUfn,DataA5>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1500
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB6>|r damage to the target, and |cffffcc00<A008:AUfn,DataA6>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1501
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB7>|r damage to the target, and |cffffcc00<A008:AUfn,DataA7>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1502
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB8>|r damage to the target, and |cffffcc00<A008:AUfn,DataA8>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1503
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB9>|r damage to the target, and |cffffcc00<A008:AUfn,DataA9>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1504
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB10>|r damage to the target, and |cffffcc00<A008:AUfn,DataA10>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1505
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB11>|r damage to the target, and |cffffcc00<A008:AUfn,DataA11>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1506
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB12>|r damage to the target, and |cffffcc00<A008:AUfn,DataA12>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1507
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB13>|r damage to the target, and |cffffcc00<A008:AUfn,DataA13>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1508
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB14>|r damage to the target, and |cffffcc00<A008:AUfn,DataA14>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1509
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB15>|r damage to the target, and |cffffcc00<A008:AUfn,DataA15>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1510
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB16>|r damage to the target, and |cffffcc00<A008:AUfn,DataA16>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1511
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB17>|r damage to the target, and |cffffcc00<A008:AUfn,DataA17>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1512
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB18>|r damage to the target, and |cffffcc00<A008:AUfn,DataA18>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1513
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB19>|r damage to the target, and |cffffcc00<A008:AUfn,DataA19>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1514
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB20>|r damage to the target, and |cffffcc00<A008:AUfn,DataA20>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1515
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB21>|r damage to the target, and |cffffcc00<A008:AUfn,DataA21>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1516
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB22>|r damage to the target, and |cffffcc00<A008:AUfn,DataA22>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1517
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB23>|r damage to the target, and |cffffcc00<A008:AUfn,DataA23>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1518
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB24>|r damage to the target, and |cffffcc00<A008:AUfn,DataA24>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1519
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB25>|r damage to the target, and |cffffcc00<A008:AUfn,DataA25>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1520
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB26>|r damage to the target, and |cffffcc00<A008:AUfn,DataA26>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1521
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB27>|r damage to the target, and |cffffcc00<A008:AUfn,DataA27>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1522
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB28>|r damage to the target, and |cffffcc00<A008:AUfn,DataA28>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1523
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB29>|r damage to the target, and |cffffcc00<A008:AUfn,DataA29>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1524
+// Abilities: A00M (Frost Nova), Ubertip (Tooltip - Normal - Extended)
+{
+Has a chance on attack to blast enemy units with a wave of frost that deals |cffffcc00<A008:AUfn,DataB30>|r damage to the target, and |cffffcc00<A008:AUfn,DataA30>|r nova damage. Cold damage slows units' movement
+}
+
+STRING 1525
+{
+Info (|Cfffed312F9|R)
+}
+
+STRING 1526
+{
+Gold earns from defeating creeps
+}
+
+STRING 1527
+{
+Has a chance to obtain on dead creeps
 }
 
