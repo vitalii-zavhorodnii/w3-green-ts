@@ -1,17 +1,10 @@
 import { Point, Trigger, Unit } from 'w3ts';
 import { OrderId } from 'w3ts/globals';
 
-import { WAYPOINTS } from '@constants/waypoints.constants';
-
-export default function orderCreep(unit: Unit, start: number) {
+export default function orderCreep(unit: Unit, start: number, waypoints: Point[]) {
   const trigger = Trigger.create();
-  let waypoints: Point[] = [];
-  let currentOrder = start;
 
-  for (const waypoint of WAYPOINTS) {
-    const point = Point.create(waypoint.point[0], waypoint.point[1]) as Point;
-    waypoints.push(point);
-  }
+  let currentOrder = start;
 
   unit.setPathing(false);
   unit.issuePointOrder(OrderId.Move, waypoints[currentOrder]);
@@ -19,10 +12,7 @@ export default function orderCreep(unit: Unit, start: number) {
   function action(): void {
     // if unit died - remove created variables and trigger
     if (!unit.isAlive) {
-      for (const waypoint of waypoints) {
-        waypoint.destroy();
-        trigger.destroy();
-      }
+      trigger.destroy();
     }
     // if unit in range of current order, give next
     if (unit.inRangeOfPoint(waypoints[currentOrder], 50)) {
@@ -31,7 +21,7 @@ export default function orderCreep(unit: Unit, start: number) {
       if (currentOrder === waypoints.length) {
         currentOrder = 0;
       }
-    
+
       unit.issuePointOrder(OrderId.Move, waypoints[currentOrder]);
     }
   }

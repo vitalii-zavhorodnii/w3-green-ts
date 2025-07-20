@@ -1,4 +1,4 @@
-import { MapPlayer, Unit } from 'w3ts';
+import { MapPlayer, Point, Unit } from 'w3ts';
 
 import createVFX from '@helpers/create-vfx';
 import runTimer from '@helpers/run-timer';
@@ -9,6 +9,7 @@ import { SPAWNTYPE } from '@constants/creeps.constants';
 import { GAME } from '@constants/game.constants';
 import { SPAWN_POINTS } from '@constants/spawn-points.constants';
 import { VFX } from '@constants/vfx.constants';
+import { WAYPOINTS } from '@constants/waypoints.constants';
 
 export default function spawnWave(
   unitId: number,
@@ -18,7 +19,14 @@ export default function spawnWave(
   callback: () => void
 ) {
   const enemy = MapPlayer.fromIndex(GAME.enemyPlayerId) as MapPlayer;
+
   let creepSpawned = 0;
+  let waypoints: Point[] = [];
+
+  for (const waypoint of WAYPOINTS) {
+    const point = Point.create(waypoint.point[0], waypoint.point[1]) as Point;
+    waypoints.push(point);
+  }
 
   function action(): void {
     // Check if all creeps from wave spawned
@@ -39,7 +47,7 @@ export default function spawnWave(
             ) as Unit;
 
             createVFX(VFX.AnimateDead, unit.x, unit.y);
-            orderCreep(unit, SPAWN_POINTS[i].order);
+            orderCreep(unit, SPAWN_POINTS[i].order, waypoints);
 
             creepSpawned++;
           }
@@ -56,7 +64,7 @@ export default function spawnWave(
                 ) as Unit;
 
                 createVFX(VFX.AnimateDead, unit.x, unit.y);
-                orderCreep(unit, SPAWN_POINTS[i].order);
+                orderCreep(unit, SPAWN_POINTS[i].order, waypoints);
 
                 creepSpawned++;
               }
