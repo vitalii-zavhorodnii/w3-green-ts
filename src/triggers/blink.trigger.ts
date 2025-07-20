@@ -10,7 +10,7 @@ export default function blinkTrigger() {
   const blinkAbilityId = 'A00O:Afbk';
   const blinkDistance = 600;
 
-  function action() {
+  function action(): void {
     const unit = Unit.fromEvent() as Unit;
     const point = Point.fromHandle(GetOrderPointLoc()) as Point;
 
@@ -21,7 +21,7 @@ export default function blinkTrigger() {
     unit.y = point.y;
   }
 
-  function condition() {
+  function condition(): boolean {
     const unit = Unit.fromEvent() as Unit;
     const level = unit.getAbilityLevel(FourCC(blinkAbilityId));
 
@@ -41,7 +41,7 @@ export default function blinkTrigger() {
     return true;
   }
 
-  trigger.registerAnyUnitEvent(EVENT_PLAYER_UNIT_ISSUED_POINT_ORDER);
   trigger.addCondition(condition);
   trigger.addAction(action);
+  trigger.registerAnyUnitEvent(EVENT_PLAYER_UNIT_ISSUED_POINT_ORDER);
 }

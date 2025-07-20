@@ -15,14 +15,14 @@ export default function necromantCircleTrigger() {
   const region = Region.create();
   region.addRect(rectangle);
 
-  function action() {
+  function action(): void {
     const unit = Unit.fromHandle(GetEnteringUnit()) as Unit;
 
     createVFX(VFX.RitualDagger, unit.x, unit.y);
     unit.destroy();
   }
 
-  function condition() {
+  function condition(): boolean {
     const unit = Unit.fromHandle(GetEnteringUnit());
 
     if (unit?.owner.id !== GAME.enemyPlayerId) {
@@ -38,9 +38,9 @@ export default function necromantCircleTrigger() {
     return true;
   }
 
+  trigger.addCondition(condition);
+  trigger.addAction(action);
   trigger.registerEnterRegion(region.handle, () => {
     return true;
   });
-  trigger.addCondition(condition);
-  trigger.addAction(action);
 }

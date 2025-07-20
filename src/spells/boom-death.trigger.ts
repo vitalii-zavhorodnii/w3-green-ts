@@ -20,7 +20,7 @@ export default function boomDeathTrigger(
   const chance = 30;
   const abilityDummy = FourCC('A00S:AHtc'); // Slam (dummy)
 
-  function action() {
+  function action(): void {
     const dummy = Unit.create(
       attacker.owner,
       dummyId,
@@ -58,7 +58,7 @@ export default function boomDeathTrigger(
     return true;
   }
 
-  trigger.registerUnitEvent(victim, EVENT_UNIT_DEATH);
   trigger.addCondition(condition);
   trigger.addAction(action);
+  trigger.registerUnitEvent(victim, EVENT_UNIT_DEATH);
 }

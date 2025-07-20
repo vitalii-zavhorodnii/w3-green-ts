@@ -12,7 +12,7 @@ export default function bloodlustSpell() {
   const ability = FourCC('A00C:Agyv'); // Frost Nova
   const abilityDummy = FourCC('A00A:ACbl'); // Frost Nova (dummy)
 
-  function action() {
+  function action(): void {
     const victim = Unit.fromHandle(GetAttackedUnitBJ());
     const attacker = Unit.fromHandle(GetAttacker());
     const player = attacker?.getOwner();

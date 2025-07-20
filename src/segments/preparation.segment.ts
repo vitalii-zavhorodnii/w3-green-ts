@@ -17,7 +17,7 @@ import freezingShotSpell from '@spells/freezing-shot.spell';
 import lightningStrikeSpell from '@spells/lightning-strike.spell';
 
 import felguardDecoration from '@decorations/felguard.decoration';
-import necromantDecoration from '@decorations/necromant/necromant.decoration';
+import necromantDecoration from '@decorations/necromant.decoration';
 import shadeDecoration from '@decorations/shade.decoration';
 import treantDecoration from '@decorations/treant.decoration';
 import wispsDeocration from '@decorations/wisps.decoratation';

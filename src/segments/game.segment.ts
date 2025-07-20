@@ -4,7 +4,7 @@ import runTimer from '@helpers/run-timer';
 
 import spawnAltar from '@scripts/spawn-altar';
 import spawnSunctum from '@scripts/spawn-sunctum';
-import spawnWave from '@scripts/spawn-wave';
+import spawnWave from '@scripts/waves/spawn-wave';
 
 import { CREEPS } from '@constants/creeps.constants';
 import { GAME } from '@constants/game.constants';

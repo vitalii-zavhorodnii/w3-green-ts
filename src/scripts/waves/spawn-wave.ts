@@ -3,7 +3,7 @@ import { MapPlayer, Unit } from 'w3ts';
 import createVFX from '@helpers/create-vfx';
 import runTimer from '@helpers/run-timer';
 
-import fillOrdersQueue from '@scripts/fill-orders-queue';
+import orderCreep from '@scripts/waves/order-creep';
 
 import { SPAWNTYPE } from '@constants/creeps.constants';
 import { GAME } from '@constants/game.constants';
@@ -20,7 +20,7 @@ export default function spawnWave(
   const enemy = MapPlayer.fromIndex(GAME.enemyPlayerId) as MapPlayer;
   let creepSpawned = 0;
 
-  function action() {
+  function action(): void {
     // Check if all creeps from wave spawned
     if (creepSpawned < count) {
       // Spawn mobs for all playable spawns
@@ -39,7 +39,7 @@ export default function spawnWave(
             ) as Unit;
 
             createVFX(VFX.AnimateDead, unit.x, unit.y);
-            fillOrdersQueue(unit, SPAWN_POINTS[i].order);
+            orderCreep(unit, SPAWN_POINTS[i].order);
 
             creepSpawned++;
           }
@@ -56,7 +56,7 @@ export default function spawnWave(
                 ) as Unit;
 
                 createVFX(VFX.AnimateDead, unit.x, unit.y);
-                fillOrdersQueue(unit, SPAWN_POINTS[i].order);
+                orderCreep(unit, SPAWN_POINTS[i].order);
 
                 creepSpawned++;
               }

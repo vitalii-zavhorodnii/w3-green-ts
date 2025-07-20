@@ -23,7 +23,7 @@ export default function checkOverCapTrigger() {
     }
   }
 
-  function action() {
+  function action(): void {
     const foodUsed = enemyPlayer.getState(PLAYER_STATE_RESOURCE_FOOD_USED);
 
     for (let i = 0; i < GAME.maxPlayers; i++) {
@@ -39,7 +39,7 @@ export default function checkOverCapTrigger() {
     }
   }
 
-  function condition() {
+  function condition(): boolean {
     if (isLoss) {
       return false;
     }
@@ -47,7 +47,7 @@ export default function checkOverCapTrigger() {
     return true;
   }
 
-  trigger.registerTimerEvent(0.3, true);
   trigger.addCondition(condition);
   trigger.addAction(action);
+  trigger.registerTimerEvent(0.3, true);
 }

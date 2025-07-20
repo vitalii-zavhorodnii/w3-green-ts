@@ -12,7 +12,7 @@ export default function freezingShotSpell() {
   const ability = FourCC('A00M:AHad'); // Frost Nova
   const abilityDummy = FourCC('A008:AUfn'); // Frost Nova (dummy)
 
-  function action() {
+  function action(): void {
     const victim = Unit.fromHandle(GetAttackedUnitBJ());
     const attacker = Unit.fromHandle(GetAttacker());
     const player = attacker?.getOwner();
@@ -58,7 +58,7 @@ export default function freezingShotSpell() {
     return true;
   }
 
-  trigger.registerAnyUnitEvent(EVENT_PLAYER_UNIT_ATTACKED);
   trigger.addCondition(condition);
   trigger.addAction(action);
+  trigger.registerAnyUnitEvent(EVENT_PLAYER_UNIT_ATTACKED);
 }

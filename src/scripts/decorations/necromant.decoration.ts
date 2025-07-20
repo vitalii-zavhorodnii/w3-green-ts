@@ -5,7 +5,7 @@ import createVFX from '@helpers/create-vfx';
 import randomize from '@helpers/randomize';
 import runTimer from '@helpers/run-timer';
 
-import necromantCircleTrigger from '@decorations/necromant/necromant-cicle.trigger';
+import necromantCircleTrigger from '@decorations/necromant-cicle.trigger';
 
 import { DECOR } from '@constants/decorations.constants';
 import { GAME } from '@constants/game.constants';
@@ -27,7 +27,7 @@ export default function necromantDecoration() {
 
   mage.invulnerable = true;
 
-  function action() {
+  function action(): void {
     const rngModel = randomize(DECOR.zombies.length);
     const modelId = FourCC(DECOR.zombies[rngModel]);
 
@@ -50,7 +50,7 @@ export default function necromantDecoration() {
     }, 3);
   }
 
-  function condition() {
+  function condition(): boolean {
     const abilityId = GetSpellAbilityId();
 
     if (mage.getAbilityLevel(abilityId) === 0) {

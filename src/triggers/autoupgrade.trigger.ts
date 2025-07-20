@@ -8,7 +8,7 @@ import { VFX } from '@constants/vfx.constants';
 export default function autoUpgradeTrigger() {
   const trigger = Trigger.create();
 
-  function action() {
+  function action(): void {
     const unit = Unit.fromHandle(GetTriggerUnit());
     const player = MapPlayer.fromEvent();
 
@@ -32,6 +32,6 @@ export default function autoUpgradeTrigger() {
     }
   }
 
-  trigger.registerAnyUnitEvent(EVENT_PLAYER_UNIT_UPGRADE_FINISH);
   trigger.addAction(action);
+  trigger.registerAnyUnitEvent(EVENT_PLAYER_UNIT_UPGRADE_FINISH);
 }

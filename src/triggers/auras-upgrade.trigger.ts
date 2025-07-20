@@ -5,7 +5,7 @@ import { GAME } from '@constants/game.constants';
 export default function aurasUpgradeTrigger(altar: Unit) {
   const trigger = Trigger.create();
 
-  function action() {
+  function action(): void {
     const unit = Unit.fromEvent() as Unit;
     const researchId = GetResearched();
 
@@ -18,7 +18,7 @@ export default function aurasUpgradeTrigger(altar: Unit) {
     }
   }
 
-  function condition() {
+  function condition(): boolean {
     const unit = Unit.fromEvent() as Unit;
 
     if (unit.owner.id === altar.owner.id) {
@@ -28,7 +28,7 @@ export default function aurasUpgradeTrigger(altar: Unit) {
     return false;
   }
 
-  trigger.registerAnyUnitEvent(EVENT_PLAYER_UNIT_RESEARCH_FINISH);
   trigger.addCondition(condition);
   trigger.addAction(action);
+  trigger.registerAnyUnitEvent(EVENT_PLAYER_UNIT_RESEARCH_FINISH);
 }

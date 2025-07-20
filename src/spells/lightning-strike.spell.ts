@@ -12,7 +12,7 @@ export default function lightningStrikeSpell() {
   const ability = FourCC('A004:agyv'); // Chain Lightning
   const abilityDummy = FourCC('A003:AOcl'); // Chain Lightning (dummy)
 
-  function action() {
+  function action(): void {
     const victim = Unit.fromHandle(GetAttackedUnitBJ());
     const attacker = Unit.fromHandle(GetAttacker());
 
@@ -59,7 +59,7 @@ export default function lightningStrikeSpell() {
     return true;
   }
 
-  trigger.registerAnyUnitEvent(EVENT_PLAYER_UNIT_ATTACKED);
   trigger.addCondition(condition);
   trigger.addAction(action);
+  trigger.registerAnyUnitEvent(EVENT_PLAYER_UNIT_ATTACKED);
 }

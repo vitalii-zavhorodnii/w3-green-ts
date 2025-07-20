@@ -11,7 +11,7 @@ export default function boomSpell() {
 
   const ability = FourCC('A00R:AHad'); // Slam
 
-  function action() {
+  function action(): void {
     const victim = Unit.fromHandle(GetAttackedUnitBJ()) as Unit;
     const attacker = Unit.fromHandle(GetAttacker()) as Unit;
     const level = Number(attacker.getAbilityLevel(ability));
@@ -49,7 +49,7 @@ export default function boomSpell() {
     return true;
   }
 
-  trigger.registerAnyUnitEvent(EVENT_PLAYER_UNIT_ATTACKED);
   trigger.addCondition(condition);
   trigger.addAction(action);
+  trigger.registerAnyUnitEvent(EVENT_PLAYER_UNIT_ATTACKED);
 }

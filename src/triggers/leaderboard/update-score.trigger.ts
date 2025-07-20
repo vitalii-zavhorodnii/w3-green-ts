@@ -6,7 +6,7 @@ export default function updateScoreTrigger(leaderboardLUA: leaderboard) {
   const trigger = Trigger.create();
   const playerScore = [0, 0, 0, 0, 0, 0];
 
-  function action() {
+  function action(): void {
     const killer = Unit.fromHandle(GetKillingUnit()) as Unit;
 
     playerScore[killer.owner.id] = playerScore[killer.owner.id] + 1;
@@ -18,7 +18,7 @@ export default function updateScoreTrigger(leaderboardLUA: leaderboard) {
     );
   }
 
-  function condition() {
+  function condition(): boolean {
     const victim = Unit.fromHandle(GetDyingUnit());
 
     if (victim && victim.owner.id !== GAME.enemyPlayerId) {
@@ -28,7 +28,7 @@ export default function updateScoreTrigger(leaderboardLUA: leaderboard) {
     return true;
   }
 
-  trigger.registerAnyUnitEvent(EVENT_PLAYER_UNIT_DEATH);
   trigger.addCondition(condition);
   trigger.addAction(action);
+  trigger.registerAnyUnitEvent(EVENT_PLAYER_UNIT_DEATH);
 }

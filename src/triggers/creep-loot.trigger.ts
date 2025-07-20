@@ -9,7 +9,7 @@ export default function creepLootTrigger() {
   const trigger = Trigger.create();
   const chance = 1;
 
-  function action() {
+  function action(): void {
     const random = Math.floor(Math.random() * 100);
 
     if (random <= chance) {
@@ -22,7 +22,7 @@ export default function creepLootTrigger() {
     }
   }
 
-  function condition() {
+  function condition(): boolean {
     const victim = Unit.fromHandle(GetDyingUnit());
 
     if (victim && victim.owner.id !== GAME.enemyPlayerId) {
@@ -32,7 +32,7 @@ export default function creepLootTrigger() {
     return true;
   }
 
-  trigger.registerAnyUnitEvent(EVENT_PLAYER_UNIT_DEATH);
   trigger.addCondition(condition);
   trigger.addAction(action);
+  trigger.registerAnyUnitEvent(EVENT_PLAYER_UNIT_DEATH);
 }

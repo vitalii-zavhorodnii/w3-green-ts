@@ -7,7 +7,7 @@ import { VFX } from '@constants/vfx.constants';
 export default function autoBuildTrigger() {
   const trigger = Trigger.create();
 
-  function action() {
+  function action(): void {
     const unit = Unit.fromHandle(GetConstructingStructure());
     const player = MapPlayer.fromEvent();
 
@@ -23,6 +23,6 @@ export default function autoBuildTrigger() {
     }
   }
 
-  trigger.registerAnyUnitEvent(EVENT_PLAYER_UNIT_CONSTRUCT_START);
   trigger.addAction(action);
+  trigger.registerAnyUnitEvent(EVENT_PLAYER_UNIT_CONSTRUCT_START);
 }
