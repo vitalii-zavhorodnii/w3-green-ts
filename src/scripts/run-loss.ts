@@ -50,8 +50,8 @@ export default function runLoss() {
         undead.invulnerable = true;
         undead.issueOrderAt(
           OrderId.Move,
-          DECOR.necro.ritual.x,
-          DECOR.necro.ritual.y
+          DECOR.necro.ritual[0],
+          DECOR.necro.ritual[1]
         );
       }, randomTimer);
     }

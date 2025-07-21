@@ -21,8 +21,8 @@ export default function necromantDecoration() {
   const mage = Unit.create(
     enemy,
     FourCC(DECOR.necro.unit),
-    DECOR.necro.spawn.x,
-    DECOR.necro.spawn.y
+    DECOR.necro.spawn[0],
+    DECOR.necro.spawn[1]
   ) as Unit;
 
   mage.invulnerable = true;
@@ -35,7 +35,7 @@ export default function necromantDecoration() {
 
     createVFX(VFX.AnimateDead, spellPoint[0], spellPoint[1]);
 
-    const movePoint = Point.create(DECOR.necro.ritual.x, DECOR.necro.ritual.y);
+    const movePoint = Point.create(DECOR.necro.ritual[0], DECOR.necro.ritual[1]);
 
     undead.invulnerable = true;
     undead.issuePointOrder(OrderId.Move, movePoint);

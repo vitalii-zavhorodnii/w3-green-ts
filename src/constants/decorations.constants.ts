@@ -7,17 +7,25 @@ export const DECOR = {
     'h012:hpea',
     'h010:hpea'
   ],
-  zombies: ['u001:uban', 'u002:uske', 'u003:uskm', 'n001:nsko', 'n002:ndmu'],
+  zombies: [
+    'u001:uban',
+    'u002:uske',
+    'u003:uskm',
+    'n001:nsko',
+    'n002:ndmu',
+    'n004:nskm'
+  ],
   necro: {
     unit: 'u005:uskm',
     spell: 'A00Q:ANcl',
-    spawn: { x: 2141.4, y: 99.7 },
+    spawn: [2141.4, 99.7],
     rect: [
       [2570.1, 3.8],
       [2661.8, 109.1]
     ],
-    ritual: { x: 2623.5, y: 77.8 },
+    ritual: [2623.5, 77.8],
     points: [
+      [1735.0, -127.7],
       [2562.7, 283.6],
       [1841.9, 494.6],
       [1930.0, -284.0],
@@ -67,7 +75,7 @@ export const DECOR = {
   },
   wisps: {
     unitId: 'e000:ewsp',
-    decorId: 'B000',
+    decorId: 'B000:FTtw',
     unitsSpawns: [
       [-3528.6, -656.1],
       [-3395.5, 453.5],
@@ -78,6 +86,29 @@ export const DECOR = {
       [-1730.1, -3260.6],
       [6905.4, -3480.5],
       [7404.1, 2749.8]
+    ]
+  },
+  camp: {
+    archer: 'n005:nskm',
+    archerPos: [4162.5, -1758.4],
+    archerAngle: 161.84,
+    dummy: 'n006:nskm',
+    dummyPos: [3894.4, -1514.8],
+    dummyAngle: 319.31
+  },
+  lumbermill: {
+    jack: 'n007:nsko',
+    tree: 'B000:FTtw',
+    // [luberjack, tree]
+    list: [
+      [
+        [7008.3, 3319.5],
+        [6992.8, 3456.4]
+      ],
+      [
+        [7488, 3386.2],
+        [7583.9, 3472.7]
+      ]
     ]
   }
 };
