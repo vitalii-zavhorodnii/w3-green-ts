@@ -2,7 +2,7 @@
 /node_modules
 /dist
 /maps/temp
-/maps/map.w3Backup
+/maps/map.w3Backup/
 
 target
 package-lock.json
