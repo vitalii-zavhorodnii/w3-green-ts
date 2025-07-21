@@ -33,7 +33,7 @@ export default function necromantDecoration() {
 
     const undead = Unit.create(enemy, modelId, spellPoint[0], spellPoint[1]) as Unit;
 
-    createVFX(VFX.AnimateDead, spellPoint[0], spellPoint[1]);
+    createVFX(VFX.RaiseDead, spellPoint[0], spellPoint[1]);
 
     const movePoint = Point.create(DECOR.necro.ritual[0], DECOR.necro.ritual[1]);
 

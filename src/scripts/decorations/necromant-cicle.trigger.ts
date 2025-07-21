@@ -28,7 +28,6 @@ export default function necromantCircleTrigger() {
     if (unit?.owner.id !== GAME.enemyPlayerId) {
       return false;
     }
-
     const classification = unit?.getField(UNIT_IF_UNIT_CLASSIFICATION);
 
     if (classification !== 2048) {
@@ -40,7 +39,5 @@ export default function necromantCircleTrigger() {
 
   trigger.addCondition(condition);
   trigger.addAction(action);
-  trigger.registerEnterRegion(region.handle, () => {
-    return true;
-  });
+  trigger.registerEnterRegion(region.handle, () => true);
 }

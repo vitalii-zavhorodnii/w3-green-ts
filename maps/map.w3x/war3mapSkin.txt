@@ -1,3 +1,6 @@
+[Categories]
+TaurenClass=TRIGSTR_1605
+
 [CustomSkin]
 InfoPanelIconFood=ReplaceableTextures\PassiveButtons\PASBTNSkeletonMage.blp
 SupplyIcon=ReplaceableTextures\PassiveButtons\PASBTNSkeletonMage.blp

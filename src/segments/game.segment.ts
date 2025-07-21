@@ -6,7 +6,7 @@ import spawnAltar from '@scripts/spawn-altar';
 import spawnSunctum from '@scripts/spawn-sunctum';
 import spawnWave from '@scripts/waves/spawn-wave';
 
-import { CREEPS } from '@constants/creeps.constants';
+import { CREEPS } from '@constants/waves-units';
 import { GAME } from '@constants/game.constants';
 
 export default function gameSegment() {

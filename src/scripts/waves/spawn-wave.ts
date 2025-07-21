@@ -5,11 +5,11 @@ import runTimer from '@helpers/run-timer';
 
 import orderCreep from '@scripts/waves/order-creep';
 
-import { SPAWNTYPE } from '@constants/creeps.constants';
+import { SPAWNTYPE } from '@constants/waves-units';
 import { GAME } from '@constants/game.constants';
-import { SPAWN_POINTS } from '@constants/spawn-points.constants';
+import { SPAWN_POINTS } from '@constants/waves-spawns.constants';
 import { VFX } from '@constants/vfx.constants';
-import { WAYPOINTS } from '@constants/waypoints.constants';
+import { WAYPOINTS } from '@constants/waves-waypoints.constants';
 
 export default function spawnWave(
   unitId: number,
