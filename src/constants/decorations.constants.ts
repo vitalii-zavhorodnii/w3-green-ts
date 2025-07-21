@@ -98,7 +98,7 @@ export const DECOR = {
   },
   lumbermill: {
     jack: 'h014:hpea',
-    tree: 'FTtw',
+    tree: 'B001:FTtw',
     // [luberjack, tree]
     list: [
       [

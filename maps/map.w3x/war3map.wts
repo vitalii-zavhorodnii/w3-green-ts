@@ -8043,3 +8043,15 @@ STRING 1602
 Endless Lumberjack
 }
 
+STRING 1603
+// Destructibles: B000 (Wisp Tree), EditorSuffix (Editor Suffix)
+{
+(no pathing)
+}
+
+STRING 1604
+// Destructibles: B001 (Fall Tree), Name (Name)
+{
+Fall Tree
+}
+

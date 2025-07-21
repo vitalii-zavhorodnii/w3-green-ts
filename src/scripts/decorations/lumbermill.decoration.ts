@@ -18,7 +18,6 @@ export default function lumbermillDecoration() {
     ) as Unit;
 
     unit.invulnerable = true;
-    print(DECOR.lumbermill.tree, FourCC(DECOR.lumbermill.tree));
 
     const tree = Destructable.create(
       FourCC(DECOR.lumbermill.tree),
@@ -33,7 +32,7 @@ export default function lumbermillDecoration() {
 
     runTimer(
       function () {
-        tree.life = 500000;
+        tree.life = 20000;
       },
       300,
       true
