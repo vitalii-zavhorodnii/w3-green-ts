@@ -28,7 +28,7 @@ export default function archerDecoration() {
 
   archer.invulnerable = true;
   archer.issueTargetOrder(OrderId.Attack, dummy);
-  print('archer', archer.id);
+  
   runTimer(
     function () {
       archer.issueImmediateOrder(OrderId.Berserk);
