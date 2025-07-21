@@ -4,10 +4,11 @@ import runTimer from '@helpers/run-timer';
 
 import spawnAltar from '@scripts/spawn-altar';
 import spawnSunctum from '@scripts/spawn-sunctum';
+import generateWave from '@scripts/waves/generate-wave';
 import spawnWave from '@scripts/waves/spawn-wave';
 
-import { CREEPS } from '@constants/waves-units';
 import { GAME } from '@constants/game.constants';
+import { CREEPS } from '@constants/waves-units';
 
 export default function gameSegment() {
   let wave = 0;
@@ -33,20 +34,22 @@ export default function gameSegment() {
 
   function startWave() {
     // get data for wave
-    const unitId = CREEPS[wave].unit;
-    const name = CREEPS[wave].name;
-    const interval = CREEPS[wave].interval;
-    const spawnsCap = CREEPS[wave].spawns;
-    const spawnType = CREEPS[wave].spawnType;
+    const data = generateWave(wave);
 
     QuestMessageBJ(
       GetPlayersAll() as force,
       bj_QUESTMESSAGE_UNITACQUIRED,
       `|cffffcc00Wave ${wave}|r
-|cffffcc00${spawnsCap}|r spawns of |cffffcc00${name}|r`
+|cffffcc00${data.spawnsCap}|r spawns of |cffffcc00${data.name}|r`
     );
 
-    spawnWave(FourCC(unitId), spawnsCap, interval, spawnType, updateWave);
+    spawnWave(
+      data.unitId,
+      data.spawnsCap,
+      data.interval,
+      data.spawnType,
+      updateWave
+    );
   }
 
   initLeaderboard();
