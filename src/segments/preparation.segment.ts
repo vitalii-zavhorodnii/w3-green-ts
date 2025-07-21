@@ -18,7 +18,7 @@ import lightningStrikeSpell from '@spells/lightning-strike.spell';
 
 import archerDecoration from '@decorations/archer.decoration';
 import felguardDecoration from '@decorations/felguard.decoration';
-// import lumbermillDecoration from '@decorations/lumbermill.decoration';
+import lumbermillDecoration from '@decorations/lumbermill.decoration';
 import necromantDecoration from '@decorations/necromant.decoration';
 import shadeDecoration from '@decorations/shade.decoration';
 import treantDecoration from '@decorations/treant.decoration';
@@ -46,6 +46,7 @@ export default function preparationSegment() {
   shadeDecoration();
   felguardDecoration();
   archerDecoration();
+  lumbermillDecoration();
 
   // Register Spell triggers
   lightningStrikeSpell();

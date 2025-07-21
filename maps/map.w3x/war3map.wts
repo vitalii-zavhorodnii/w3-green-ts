@@ -8037,3 +8037,9 @@ STRING 1600
 Archer Dummy
 }
 
+STRING 1601
+// Units: h014 (Archer Dummy), Name (Name)
+{
+Archer Dummy
+}
+

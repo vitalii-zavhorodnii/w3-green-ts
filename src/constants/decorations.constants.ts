@@ -97,7 +97,7 @@ export const DECOR = {
     dummyAngle: 319.31
   },
   lumbermill: {
-    jack: 'n007:nsko',
+    jack: 'h014:hpea',
     tree: 'B000:FTtw',
     // [luberjack, tree]
     list: [
