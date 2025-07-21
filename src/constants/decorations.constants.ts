@@ -13,7 +13,7 @@ export const DECOR = {
     'u003:uskm',
     'n001:nsko',
     'n002:ndmu',
-    'n004:nskm'
+    'n004:nskm',
   ],
   necro: {
     unit: 'u005:uskm',
@@ -92,7 +92,7 @@ export const DECOR = {
     archer: 'n005:nskm',
     archerPos: [4162.5, -1758.4],
     archerAngle: 161.84,
-    dummy: 'n006:nskm',
+    dummy: 'h013:hpea',
     dummyPos: [3894.4, -1514.8],
     dummyAngle: 319.31
   },

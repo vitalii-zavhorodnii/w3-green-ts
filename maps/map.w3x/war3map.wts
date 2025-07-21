@@ -8025,3 +8025,15 @@ STRING 1598
 Felguard
 }
 
+STRING 1599
+// Units: n005 (Archer), Name (Name)
+{
+Archer
+}
+
+STRING 1600
+// Units: h013 (Archer Dummy), Name (Name)
+{
+Archer Dummy
+}
+

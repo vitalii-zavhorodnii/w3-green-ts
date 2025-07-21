@@ -16,7 +16,9 @@ import boomSpell from '@spells/boom';
 import freezingShotSpell from '@spells/freezing-shot.spell';
 import lightningStrikeSpell from '@spells/lightning-strike.spell';
 
+import archerDecoration from '@decorations/archer.decoration';
 import felguardDecoration from '@decorations/felguard.decoration';
+// import lumbermillDecoration from '@decorations/lumbermill.decoration';
 import necromantDecoration from '@decorations/necromant.decoration';
 import shadeDecoration from '@decorations/shade.decoration';
 import treantDecoration from '@decorations/treant.decoration';
@@ -25,19 +27,11 @@ import wispsDeocration from '@decorations/wisps.decoratation';
 import { GAME } from '@constants/game.constants';
 
 export default function preparationSegment() {
-  // Message
-  QuestMessageBJ(
-    GetPlayersAll() as force,
-    bj_QUESTMESSAGE_DISCOVERED,
-    `|cffffcc00Green Circle TS|r will begin shortly!`
-  );
-
-  // Activate decoration animations
-  wispsDeocration();
-  treantDecoration();
-  necromantDecoration();
-  shadeDecoration();
-  felguardDecoration();
+  // Create players and apply settings
+  playersSettings();
+  creepLootTrigger();
+  createQuestLog();
+  checkOverCapTrigger();
 
   // Register triggers
   autoBuildTrigger();
@@ -45,17 +39,26 @@ export default function preparationSegment() {
   creepsCleanTrigger();
   blinkTrigger();
 
+  // Activate decoration
+  wispsDeocration();
+  treantDecoration();
+  necromantDecoration();
+  shadeDecoration();
+  felguardDecoration();
+  archerDecoration();
+
   // Register Spell triggers
   lightningStrikeSpell();
   freezingShotSpell();
   bloodlustSpell();
   boomSpell();
 
-  // Create players and apply settings
-  playersSettings();
-  creepLootTrigger();
-  createQuestLog();
-  checkOverCapTrigger();
+  // Message
+  QuestMessageBJ(
+    GetPlayersAll() as force,
+    bj_QUESTMESSAGE_DISCOVERED,
+    `|cffffcc00Green Circle TS|r will begin shortly!`
+  );
 
   // Activate main game segment
   runTimer(gameSegment, GAME.startSegmentTimer, false, 'Preparation');
