@@ -4,7 +4,7 @@ import { OrderId } from 'w3ts/globals';
 import { DECOR } from '@constants/decorations.constants';
 import { GAME } from '@constants/game.constants';
 
-export default function wispsDeocration() {
+export default function wispsDecoration() {
   const player = MapPlayer.fromIndex(GAME.enemyPlayerId) as MapPlayer;
 
   for (const loc of DECOR.wisps.unitsSpawns) {

@@ -22,7 +22,7 @@ import lumbermillDecoration from '@decorations/lumbermill.decoration';
 import necromantDecoration from '@decorations/necromant.decoration';
 import shadeDecoration from '@decorations/shade.decoration';
 import treantDecoration from '@decorations/treant.decoration';
-import wispsDeocration from '@decorations/wisps.decoratation';
+import wispsDecoration from '@decorations/wisps.decoratation';
 
 import { GAME } from '@constants/game.constants';
 
@@ -40,7 +40,7 @@ export default function preparationSegment() {
   blinkTrigger();
 
   // Activate decoration
-  wispsDeocration();
+  wispsDecoration();
   treantDecoration();
   necromantDecoration();
   shadeDecoration();

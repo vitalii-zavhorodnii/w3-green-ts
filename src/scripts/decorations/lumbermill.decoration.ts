@@ -32,7 +32,7 @@ export default function lumbermillDecoration() {
 
     runTimer(
       function () {
-        tree.life = 20000;
+        tree.life = 10000;
       },
       300,
       true
