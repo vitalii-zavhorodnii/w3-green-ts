@@ -1,16 +1,16 @@
 import initLeaderboard from '@triggers/leaderboard/init-leaderboard';
 
+import spawnAltar from '@scripts/spawn-altar';
+import spawnSunctum from '@scripts/spawn-sunctum';
+
 import runTimer from '@helpers/run-timer';
 import shuffleArray from '@helpers/shuffle-array';
 
-import spawnAltar from '@scripts/spawn-altar';
-import spawnSunctum from '@scripts/spawn-sunctum';
-import generateWave, { ICreep } from '@scripts/waves/generate-wave';
-import spawnWave from '@scripts/waves/spawn-wave';
+import generateWave, { ICreep } from '@waves/generate-wave';
+import spawnWave from '@waves/spawn-wave';
 
 import { GAME } from '@constants/game.constants';
 import { CREEPS } from '@constants/waves-creeps';
-import { ARMOR_TYPES } from '@constants/waves-stats.constants';
 
 export default function gameSegment() {
   const creeps = shuffleArray(CREEPS);

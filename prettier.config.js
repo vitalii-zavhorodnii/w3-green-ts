@@ -9,8 +9,9 @@ module.exports = {
     '<THIRD_PARTY_MODULES>',
     '^@segments\\w*',
     '^@triggers\\w*',
-    '^@helpers\\w*',
     '^@scripts\\w*',
+    '^@helpers\\w*',
+    '^@waves\\w*',
     '^@spells\\w*',
     '^@decorations\\w*',
     '^@constants\\w*'

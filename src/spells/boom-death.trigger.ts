@@ -1,8 +1,8 @@
 import { Effect, MapPlayer, Trigger, Unit } from 'w3ts';
 import { OrderId } from 'w3ts/globals';
 
-import createVFX from '@scripts/helpers/create-vfx';
-import runTimer from '@scripts/helpers/run-timer';
+import createVFX from '@helpers/create-vfx';
+import runTimer from '@helpers/run-timer';
 
 import { GAME } from '@constants/game.constants';
 import { VFX } from '@constants/vfx.constants';

@@ -6,32 +6,17 @@
     "baseUrl": "./",
     "forceConsistentCasingInFileNames": true,
     "target": "ESNext",
-    "lib": [
-      "ESNext"
-    ],
+    "lib": ["ESNext"],
     "moduleResolution": "node",
     "paths": {
-      "@scripts/*": [
-        "./src/scripts/*"
-      ],
-      "@helpers/*": [
-        "./src/scripts/helpers/*"
-      ],
-      "@decorations/*": [
-        "./src/scripts/decorations/*"
-      ],
-      "@triggers/*": [
-        "./src/triggers/*"
-      ],
-      "@spells/*": [
-        "./src/spells/*"
-      ],
-      "@segments/*": [
-        "./src/segments/*"
-      ],
-      "@constants/*": [
-        "./src/constants/*"
-      ],
+      "@scripts/*": ["./src/scripts/*"],
+      "@helpers/*": ["./src/helpers/*"],
+      "@decorations/*": ["./src/decorations/*"],
+      "@triggers/*": ["./src/triggers/*"],
+      "@spells/*": ["./src/spells/*"],
+      "@segments/*": ["./src/segments/*"],
+      "@constants/*": ["./src/constants/*"],
+      "@waves/*": ["./src/waves/*"],
       "@objectdata/*": [
         "./node_modules/war3-objectdata-th/dist/cjs/generated/constants/*"
       ]
@@ -60,9 +45,7 @@
       "war3-objectdata-th/dist/cjs/objectdata"
     ]
   },
-  "include": [
-    "src"
-  ],
+  "include": ["src"],
   "exclude": [],
   "tstl": {
     "luaTarget": "5.3",
@@ -72,9 +55,6 @@
     "luaBundle": "dist/tstl_output.lua",
     "luaBundleEntry": "./src/main.ts",
     "sourceMapTraceback": false,
-    "noResolvePaths": [
-      "typescript",
-      "typescript-to-lua"
-    ]
+    "noResolvePaths": ["typescript", "typescript-to-lua"]
   }
 }

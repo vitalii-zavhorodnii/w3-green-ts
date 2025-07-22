@@ -8,8 +8,9 @@ import creepLootTrigger from '@triggers/creep-loot.trigger';
 import creepsCleanTrigger from '@triggers/creeps-clean.trigger';
 
 import createQuestLog from '@scripts/create-questlog';
-import runTimer from '@scripts/helpers/run-timer';
 import playersSettings from '@scripts/players-settings';
+
+import runTimer from '@helpers/run-timer';
 
 import bloodlustSpell from '@spells/bloodlust.spell';
 import boomSpell from '@spells/boom';
