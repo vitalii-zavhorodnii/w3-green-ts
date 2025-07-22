@@ -8060,3 +8060,39 @@ STRING 1605
 Summon
 }
 
+STRING 1608
+// Upgrades: R006 (Reinforced Defenses), Name (Name)
+{
+Change Armor type Fortified
+}
+
+STRING 1609
+// Upgrades: R007 (Reinforced Defenses), Name (Name)
+{
+Change Armor type Unarmored
+}
+
+STRING 1610
+// Upgrades: R008 (Reinforced Defenses), Name (Name)
+{
+Change Armor type Light
+}
+
+STRING 1611
+// Upgrades: R009 (Reinforced Defenses), Name (Name)
+{
+Change Armor type Heavy
+}
+
+STRING 1612
+// Abilities: A00U (Life Bonus Creep), Name (Name)
+{
+Life Bonus Creep
+}
+
+STRING 1613
+// Abilities: A00U (Life Bonus Creep), EditorSuffix (Editor Suffix)
+{
+(normal)
+}
+

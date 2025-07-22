@@ -1,19 +1,23 @@
 import initLeaderboard from '@triggers/leaderboard/init-leaderboard';
 
 import runTimer from '@helpers/run-timer';
+import shuffleArray from '@helpers/shuffle-array';
 
 import spawnAltar from '@scripts/spawn-altar';
 import spawnSunctum from '@scripts/spawn-sunctum';
-import generateWave from '@scripts/waves/generate-wave';
+import generateWave, { ICreep } from '@scripts/waves/generate-wave';
 import spawnWave from '@scripts/waves/spawn-wave';
 
 import { GAME } from '@constants/game.constants';
-import { CREEPS } from '@constants/waves-units';
+import { CREEPS } from '@constants/waves-creeps';
+import { ARMOR_TYPES } from '@constants/waves-stats.constants';
 
 export default function gameSegment() {
+  const creeps = shuffleArray(CREEPS);
+
   let wave = 0;
 
-  function updateWave() {
+  function updateWave(): void {
     wave++;
 
     if (wave === GAME.extentionsRound) {
@@ -32,24 +36,23 @@ export default function gameSegment() {
     startWave();
   }
 
-  function startWave() {
+  function startWave(): void {
     // get data for wave
-    const data = generateWave(wave);
-
+    const waveData: ICreep = generateWave(wave, creeps);
     QuestMessageBJ(
       GetPlayersAll() as force,
       bj_QUESTMESSAGE_UNITACQUIRED,
-      `|cffffcc00Wave ${wave}|r
-|cffffcc00${data.spawnsCap}|r spawns of |cffffcc00${data.name}|r`
+      `|cffffcc00Wave ${wave}|r`
     );
+    //     QuestMessageBJ(
+    //       GetPlayersAll() as force,
+    //       bj_QUESTMESSAGE_UNITACQUIRED,
+    //       `|cffffcc00Wave ${wave}|r - ${waveData.armorTypeName}
+    // |cffffcc00${waveData.spawnsCap}|r spawns of |cffffcc00${waveData.name}|r
+    // |cffc80000${waveData.hp}|r hp - |cff008000${waveData.armor}|r armor - |cff00ffff${waveData.speed}|r speed`
+    //     );
 
-    spawnWave(
-      data.unitId,
-      data.spawnsCap,
-      data.interval,
-      data.spawnType,
-      updateWave
-    );
+    spawnWave({ ...waveData, callback: () => updateWave(), wave });
   }
 
   initLeaderboard();

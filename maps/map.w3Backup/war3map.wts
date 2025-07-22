@@ -8019,3 +8019,56 @@ Warden Berserk has |cff8c8c8cPierce|r attack type.
 |cffffcc00Attacks land and air units|r
 }
 
+STRING 1598
+// Units: o014 (Felguard), Name (Name)
+{
+Felguard
+}
+
+STRING 1599
+// Units: n005 (Archer), Name (Name)
+{
+Archer
+}
+
+STRING 1600
+// Units: h013 (Archer Dummy), Name (Name)
+{
+Archer Dummy
+}
+
+STRING 1602
+// Units: h014 (Endless Lumberjack), Name (Name)
+{
+Endless Lumberjack
+}
+
+STRING 1603
+// Destructibles: B000 (Wisp Tree), EditorSuffix (Editor Suffix)
+{
+(no pathing)
+}
+
+STRING 1604
+// Destructibles: B001 (Fall Tree), Name (Name)
+{
+Fall Tree
+}
+
+STRING 1605
+{
+Summon
+}
+
+STRING 1606
+// Abilities: A00U (Life Bonus), Name (Name)
+{
+Life Bonus
+}
+
+STRING 1607
+// Abilities: A00U (Life Bonus), EditorSuffix (Editor Suffix)
+{
+(creep)
+}
+

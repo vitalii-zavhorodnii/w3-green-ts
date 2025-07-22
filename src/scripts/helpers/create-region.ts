@@ -1,6 +1,6 @@
 import { Rectangle, Region } from 'w3ts';
 
-export default function RegionCreatorHelper(
+export default function createRegion(
   botLeftX: number,
   botLeftY: number,
   topRightX: number,
