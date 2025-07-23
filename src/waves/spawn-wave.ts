@@ -5,13 +5,12 @@ import { ICreep } from './generate-wave';
 import createVFX from '@helpers/create-vfx';
 import runTimer from '@helpers/run-timer';
 
-import orderCreep from '@scripts/waves/order-creep';
+import orderCreep from '@waves/order-creep';
 
 import { GAME } from '@constants/game.constants';
 import { VFX } from '@constants/vfx.constants';
 import { SPAWNTYPE } from '@constants/waves-creeps';
 import { SPAWN_POINTS } from '@constants/waves-spawns.constants';
-import { ARMOR_TYPES, STATS } from '@constants/waves-stats.constants';
 import { WAYPOINTS } from '@constants/waves-waypoints.constants';
 
 interface ISpawnProps extends ICreep {
