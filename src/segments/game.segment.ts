@@ -1,3 +1,5 @@
+// import showWaveInfo from '@ui/show-wave-info';
+
 import initLeaderboard from '@triggers/leaderboard/init-leaderboard';
 
 import spawnAltar from '@scripts/spawn-altar';
@@ -16,6 +18,8 @@ export default function gameSegment() {
   const creeps = shuffleArray(CREEPS);
 
   let wave = 0;
+
+  // showWaveInfo();
 
   function updateWave(): void {
     wave++;
