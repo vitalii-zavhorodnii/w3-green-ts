@@ -36,6 +36,7 @@ export default function checkOverCapTrigger() {
     if (foodUsed > creepsCap) {
       isLoss = true;
       runLoss();
+      trigger.destroy();
     }
   }
 
