@@ -45,12 +45,10 @@ function main() {
  * @param dir The directory to create the archive from
  */
 export function createMapFromDir(output: string, dir: string) {
-  console.log('createMapFromDir');
   const map = new War3Map();
   const files = getFilesInDirectory(dir);
 
   map.archive.resizeHashtable(files.length);
-  console.log('resizeHashtable');
   for (const fileName of files) {
     const contents = toArrayBuffer(fs.readFileSync(fileName));
     const archivePath = path.relative(dir, fileName);
@@ -61,8 +59,9 @@ export function createMapFromDir(output: string, dir: string) {
       continue;
     }
   }
-  console.log('map.save();');
+  console.log('createMapFromDir', 'const result = map.save();');
   const result = map.save();
+  console.log('createMapFromDir', 'if (!result) {');
 
   if (!result) {
     logger.error('Failed to save archive.');

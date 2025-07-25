@@ -23,6 +23,7 @@
     "fs-extra": "8.1.0",
     "lua-types": "^2.13.1",
     "luamin": "^1.0.4",
+    "mdx-m3-viewer": "git+https://github.com/cipherxof/mdx-m3-viewer.git#updates",
     "mdx-m3-viewer-th": "^5.13.0",
     "npm-watch": "0.6.0",
     "prettier": "3.6.2",

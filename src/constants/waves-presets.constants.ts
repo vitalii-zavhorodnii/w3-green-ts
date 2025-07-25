@@ -8,17 +8,9 @@ export const PRESET = [
     interval: 1.2,
     spawnType: SPAWNTYPE.single,
     speed: 150,
-    spawns: 3,
+    spawns: 48,
     reduceHp: 1,
-    reduceArmor: 1
-  },
-  {
-    interval: 1.5,
-    spawnType: SPAWNTYPE.single,
-    speed: 300,
-    spawns: 3,
-    reduceHp: 0.7,
-    reduceArmor: 5
+    reduceArmor: 0
   },
   {
     interval: 1.8,
@@ -26,7 +18,14 @@ export const PRESET = [
     speed: 450,
     spawns: 3,
     reduceHp: 1,
+    reduceArmor: 0
+  },
+  {
+    interval: 1.5,
+    spawnType: SPAWNTYPE.triple,
+    speed: 260,
+    spawns: 87,
+    reduceHp: 0.7,
     reduceArmor: 1
   }
 ];
-  

@@ -34,7 +34,7 @@ export const DECOR = {
   },
   shade: {
     unit: 'u006:ushd',
-    timer: 5,
+    timer: 10,
     points: [
       [4094.7, 1536.4],
       [3454.2, 1536.7],
