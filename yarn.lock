@@ -1169,6 +1169,17 @@ mdx-m3-viewer-th@^5.13.0:
     pako "^2.0.3"
     tga-js "^1.1.1"
 
+mdx-m3-viewer-th@^5.13.1:
+  version "5.13.1"
+  resolved "https://registry.yarnpkg.com/mdx-m3-viewer-th/-/mdx-m3-viewer-th-5.13.1.tgz#5f70758d98864a3d3ca26103a370ed8ee5d23d26"
+  integrity sha512-29kdW9D6bxFO59TARuIwYX2RVHkZnSmP6ySAJiNGorCMrszEzWxcShVG/ETLqetIkyX3wm1XGns2sxEvzyyBIA==
+  dependencies:
+    fengari "^0.1.4"
+    file-saver "^2.0.5"
+    gl-matrix "3.3.0"
+    pako "^2.0.3"
+    tga-js "^1.1.1"
+
 "mdx-m3-viewer@git+https://github.com/cipherxof/mdx-m3-viewer.git#updates":
   version "5.13.1"
   resolved "git+https://github.com/cipherxof/mdx-m3-viewer.git#f4112b22a9659b30c085804d658310e5be855317"

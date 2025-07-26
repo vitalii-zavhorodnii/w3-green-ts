@@ -8,6 +8,38 @@ gg_rct_Region_006 = nil
 function InitGlobals()
 end
 
+function CreateBuildingsForPlayer0()
+local p = Player(0)
+local u
+local unitID
+local t
+local life
+
+u = BlzCreateUnitWithSkin(p, FourCC("h00W"), -1152.0, 2048.0, 270.000, FourCC("h00W"))
+u = BlzCreateUnitWithSkin(p, FourCC("h00L"), -1536.0, 1536.0, 270.000, FourCC("h00L"))
+u = BlzCreateUnitWithSkin(p, FourCC("h00C"), -1280.0, 2048.0, 270.000, FourCC("h00C"))
+u = BlzCreateUnitWithSkin(p, FourCC("o009"), -1536.0, 1792.0, 270.000, FourCC("o009"))
+u = BlzCreateUnitWithSkin(p, FourCC("o00Y"), -1536.0, 2048.0, 270.000, FourCC("o00Y"))
+u = BlzCreateUnitWithSkin(p, FourCC("o00G"), -1408.0, 2048.0, 270.000, FourCC("o00G"))
+u = BlzCreateUnitWithSkin(p, FourCC("o00P"), -1408.0, 1792.0, 270.000, FourCC("o00P"))
+u = BlzCreateUnitWithSkin(p, FourCC("hatw"), -1408.0, 1536.0, 270.000, FourCC("hatw"))
+u = BlzCreateUnitWithSkin(p, FourCC("hgtw"), -1280.0, 1792.0, 270.000, FourCC("hgtw"))
+u = BlzCreateUnitWithSkin(p, FourCC("hctw"), -1152.0, 1792.0, 270.000, FourCC("hctw"))
+u = BlzCreateUnitWithSkin(p, FourCC("hatw"), -1280.0, 1536.0, 270.000, FourCC("hatw"))
+end
+
+function CreatePlayerBuildings()
+CreateBuildingsForPlayer0()
+end
+
+function CreatePlayerUnits()
+end
+
+function CreateAllUnits()
+CreatePlayerBuildings()
+CreatePlayerUnits()
+end
+
 function CreateRegions()
 local we
 
@@ -291,6 +323,7 @@ SetAmbientNightSound("DalaranNight")
 SetMapMusic("Music", true, 0)
 CreateRegions()
 InitUpgrades()
+CreateAllUnits()
 InitBlizzard()
 InitGlobals()
 end
