@@ -6,6 +6,7 @@ export const GAME = {
   startWood: 0, // 0
   startSegmentTimer: 30, // 30
   capPerPlayer: 50, // 50
+  presetStartLvl: 3,
   extentionsRound: 3, // 3 do not set lower then 1
   dummyId: 'u000:ushd',
   sanctumId: 'h00X:hars',

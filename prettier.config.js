@@ -8,6 +8,7 @@ module.exports = {
     '(^w3ts\\w*)|(^w3ts/globals\\w*)',
     '<THIRD_PARTY_MODULES>',
     '^@segments\\w*',
+    '^@ui\\w*',
     '^@triggers\\w*',
     '^@scripts\\w*',
     '^@helpers\\w*',

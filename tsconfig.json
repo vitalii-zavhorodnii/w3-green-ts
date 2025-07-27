@@ -33,7 +33,7 @@
         "./src/constants/*"
       ],
       "@waves/*": [
-        "./src/waves/*"
+        "src/scripts/waves/*"
       ],
       "@ui/*": [
         "./src/ui/*"

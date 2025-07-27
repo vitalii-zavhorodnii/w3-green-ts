@@ -1,3 +1,5 @@
+import showWaveInfo from '@ui/show-wave-info';
+
 import gameSegment from '@segments/game.segment';
 
 import autoBuildTrigger from '@triggers/autobuild.trigger';
@@ -54,6 +56,9 @@ export default function preparationSegment() {
   freezingShotSpell();
   bloodlustSpell();
   boomSpell();
+
+  // Load Frames
+  // showWaveInfo();
 
   // Message
   QuestMessageBJ(

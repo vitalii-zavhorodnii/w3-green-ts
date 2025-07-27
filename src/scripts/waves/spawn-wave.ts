@@ -1,11 +1,9 @@
 import { MapPlayer, Point, Unit } from 'w3ts';
 
-import { ICreep } from './generate-wave';
+import orderCreep from '@scripts/waves/order-creep';
 
 import createVFX from '@helpers/create-vfx';
 import runTimer from '@helpers/run-timer';
-
-import orderCreep from '@waves/order-creep';
 
 import { GAME } from '@constants/game.constants';
 import { VFX } from '@constants/vfx.constants';
@@ -13,14 +11,17 @@ import { SPAWNTYPE } from '@constants/waves-creeps';
 import { SPAWN_POINTS } from '@constants/waves-spawns.constants';
 import { WAYPOINTS } from '@constants/waves-waypoints.constants';
 
-interface ISpawnProps extends ICreep {
-  callback: () => void;
+interface SpawnWaveDTO {
   wave: number;
+  waveData: IWAVEDATA;
+  callback: () => void;
 }
 
-export default function spawnWave(props: ISpawnProps): void {
+export default function spawnWave({ wave, waveData, callback }: SpawnWaveDTO): void {
   const enemy = MapPlayer.fromIndex(GAME.enemyPlayerId) as MapPlayer;
-  const { unitId, count, interval, spawnType, callback, wave, armor, speed } = props;
+
+  const { unitId, spawnType, interval, count } = waveData;
+  const { speed, bounty, maxLife, maxMana, armor } = waveData;
 
   let creepSpawned = 0;
   let waypoints: Point[] = [];
@@ -34,13 +35,17 @@ export default function spawnWave(props: ISpawnProps): void {
     const unit = Unit.create(enemy, unitId, x, y, angle) as Unit;
 
     createVFX(VFX.AnimateDead, unit.x, unit.y);
-
-    unit.moveSpeed = speed;
+    // Update unit stats to variables
+    unit.userData = bounty;
     unit.armor = armor;
+    unit.moveSpeed = speed;
+    unit.maxLife = maxLife;
+    unit.life = maxLife;
 
-    // const abilityId = FourCC('A00U:All2'); // Life Bonus Creep
-    // unit.addAbility(abilityId);
-    // unit.setAbilityLevel(abilityId, 5);
+    if (maxMana > 0) {
+      unit.maxMana = maxMana;
+      unit.mana = maxMana;
+    }
 
     return unit;
   }

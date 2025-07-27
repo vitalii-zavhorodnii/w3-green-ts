@@ -1,21 +1,20 @@
 // import showWaveInfo from '@ui/show-wave-info';
-
 import initLeaderboard from '@triggers/leaderboard/init-leaderboard';
 
 import spawnAltar from '@scripts/spawn-altar';
 import spawnSunctum from '@scripts/spawn-sunctum';
+// import generateBoss from '@scripts/waves/generate-boss';
+import generateWave from '@scripts/waves/generate-wave';
+import spawnWave from '@scripts/waves/spawn-wave';
 
 import runTimer from '@helpers/run-timer';
 import shuffleArray from '@helpers/shuffle-array';
-
-import generateWave, { ICreep } from '@waves/generate-wave';
-import spawnWave from '@waves/spawn-wave';
 
 import { GAME } from '@constants/game.constants';
 import { CREEPS } from '@constants/waves-creeps';
 
 export default function gameSegment() {
-  const creeps = shuffleArray(CREEPS);
+  const unitBlanksList = shuffleArray(CREEPS);
 
   let wave = 0;
 
@@ -36,28 +35,44 @@ export default function gameSegment() {
       }, 25);
     }
 
-    // Wave level update at the end
+    // if (wave % 10 !== 0) {
+    //   startWave();
+    // } else {
+    //   startBoss();
+    // }
+
     startWave();
   }
 
   function startWave(): void {
-    // get data for wave
-    const waveData: ICreep = generateWave(wave, creeps);
+    const waveData: IWAVEDATA = generateWave(wave, unitBlanksList);
+
     QuestMessageBJ(
       GetPlayersAll() as force,
       bj_QUESTMESSAGE_UNITACQUIRED,
-      `|cffffcc00Wave ${wave}|r`
+      `|cffffcc00Wave ${wave}|r - ${waveData.armorTypeName}|r
+|cffffcc00${waveData.count}|r spawns of |cffffcc00${waveData.name}|r
+|cffc80000${waveData.maxLife}|r hp - |cff008000${waveData.armor}|r armor - |cff00ffff${waveData.speed}|r speed`
     );
-    //     QuestMessageBJ(
-    //       GetPlayersAll() as force,
-    //       bj_QUESTMESSAGE_UNITACQUIRED,
-    //       `|cffffcc00Wave ${wave}|r - ${waveData.armorTypeName}
-    // |cffffcc00${waveData.spawnsCap}|r spawns of |cffffcc00${waveData.name}|r
-    // |cffc80000${waveData.hp}|r hp - |cff008000${waveData.armor}|r armor - |cff00ffff${waveData.speed}|r speed`
-    //     );
 
-    spawnWave({ ...waveData, callback: () => updateWave(), wave });
+    spawnWave({ wave, waveData, callback: () => updateWave() });
   }
+
+  //   function startBoss(): void {
+  //     // get data for wave
+  //     const waveData: IWAVEDATA = generateBoss(wave);
+
+  //     QuestMessageBJ(
+  //       GetPlayersAll() as force,
+  //       bj_QUESTMESSAGE_UNITACQUIRED,
+  //       `|cffffcc00Wave ${wave}|r - ${waveData.armorTypeName}|r
+  // |cffffcc00${waveData.count}|r spawns of |cffffcc00${waveData.name}|r
+  // |cffc80000${waveData.maxLife}|r hp - |cff008000${waveData.armor}|r armor - |cff00ffff${waveData.speed}|r speed`
+  //     );
+
+  //     // spawnWave({ wave, waveData, callback: () => updateWave() });
+  //     startWave();
+  //   }
 
   initLeaderboard();
   startWave(); // Init first Wave

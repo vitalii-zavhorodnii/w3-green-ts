@@ -1,31 +1,43 @@
-export const SPAWNTYPE = {
-  single: 'SINGLE',
-  triple: 'TRIPLE'
+export const DEFAULT_PRESET: IPRESET = {
+  spawnType: 'SINGLE',
+  interval: 1.2,
+  speed: 220,
+  spawns: 48,
+  maxMana: 0,
+  reduceHp: 1, // hp multiplier bounty * value
+  reduceBounty: 1, // bounty multiplier bounty * value
+  reduceArmor: 0 // static value -armor
 };
 
-export const PRESET = [
+export const PRESET: IPRESET[] = [
   {
+    spawnType: 'SINGLE',
     interval: 1.2,
-    spawnType: SPAWNTYPE.single,
-    speed: 150,
+    speed: 280,
     spawns: 48,
+    maxMana: 0,
     reduceHp: 1,
+    reduceBounty: 1,
     reduceArmor: 0
   },
   {
-    interval: 1.8,
-    spawnType: SPAWNTYPE.single,
-    speed: 450,
-    spawns: 3,
-    reduceHp: 1,
-    reduceArmor: 0
-  },
-  {
-    interval: 1.5,
-    spawnType: SPAWNTYPE.triple,
+    spawnType: 'SINGLE',
+    interval: 1.4,
     speed: 260,
-    spawns: 87,
-    reduceHp: 0.7,
-    reduceArmor: 1
+    spawns: 48,
+    maxMana: 0,
+    reduceHp: 1.1,
+    reduceBounty: 1,
+    reduceArmor: 0
+  },
+  {
+    spawnType: 'TRIPLE',
+    interval: 1.5,
+    speed: 220,
+    spawns: 92,
+    maxMana: 0,
+    reduceHp: 0.4,
+    reduceBounty: 0.4,
+    reduceArmor: 0
   }
 ];

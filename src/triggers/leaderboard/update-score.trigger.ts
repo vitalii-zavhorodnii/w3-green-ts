@@ -1,5 +1,7 @@
 import { Trigger, Unit } from 'w3ts';
 
+import rewardPlayer from '@scripts/reward-player';
+
 import { GAME } from '@constants/game.constants';
 
 export default function updateScoreTrigger(leaderboardLUA: leaderboard) {
@@ -8,8 +10,11 @@ export default function updateScoreTrigger(leaderboardLUA: leaderboard) {
 
   function action(): void {
     const killer = Unit.fromHandle(GetKillingUnit()) as Unit;
+    const victim = Unit.fromHandle(GetDyingUnit()) as Unit;
 
     playerScore[killer.owner.id] = playerScore[killer.owner.id] + 1;
+
+    rewardPlayer(killer.owner, victim, victim.userData);
 
     LeaderboardSetPlayerItemValueBJ(
       killer.owner.handle,

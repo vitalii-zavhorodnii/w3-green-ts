@@ -8084,15 +8084,18 @@ STRING 1611
 Change Armor type Heavy
 }
 
-STRING 1612
-// Abilities: A00U (Life Bonus Creep), Name (Name)
+STRING 1617
 {
-Life Bonus Creep
+Takes |cffc0c0c0100|r% from all attack types
 }
 
-STRING 1613
-// Abilities: A00U (Life Bonus Creep), EditorSuffix (Editor Suffix)
+STRING 1618
 {
-(normal)
+Takes |cffc0c0c0100|r% from all attack types
+}
+
+STRING 1619
+{
+Takes |cffc0c0c0100|r% from all attack types
 }
 
