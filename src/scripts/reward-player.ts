@@ -1,4 +1,6 @@
-import { MapPlayer, Unit } from 'w3ts';
+import { MapPlayer, TextTag, Unit } from 'w3ts';
+
+import runTimer from '@helpers/run-timer';
 
 export default function rewardPlayer(
   player: MapPlayer,
@@ -10,7 +12,6 @@ export default function rewardPlayer(
   player.setState(PLAYER_STATE_RESOURCE_GOLD, balance);
 
   // Float text!
-
   const str = `|cffffcc00+${bounty}|r`;
 
   const t = CreateTextTagUnitBJ(
@@ -27,4 +28,10 @@ export default function rewardPlayer(
   SetTextTagLifespanBJ(t, 2);
   SetTextTagFadepointBJ(t, 1);
   SetTextTagVelocityBJ(t, 60.0, 90);
+
+  const textTag = TextTag.fromHandle(t);
+
+  runTimer(() => {
+    textTag?.destroy();
+  }, 3);
 }

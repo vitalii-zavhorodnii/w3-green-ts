@@ -9,9 +9,6 @@ export default function playersSettings() {
   FogEnable(false);
   FogMaskEnable(false);
 
-  const enemyPlayer = MapPlayer.fromIndex(GAME.enemyPlayerId) as MapPlayer;
-  SetPlayerFlagBJ(PLAYER_STATE_GIVES_BOUNTY, true, enemyPlayer.handle);
-
   for (let i = 0; i < GAME.maxPlayers; i++) {
     const player = MapPlayer.fromIndex(i) as MapPlayer;
 

@@ -1,5 +1,6 @@
 import { Rectangle, Region, Trigger, Unit } from 'w3ts';
 
+import createRegion from '@helpers/create-region';
 import createVFX from '@helpers/create-vfx';
 
 import { DECOR } from '@constants/decorations.constants';
@@ -8,12 +9,10 @@ import { VFX } from '@constants/vfx.constants';
 
 export default function necromantCircleTrigger() {
   const trigger = Trigger.create();
-  const rect = DECOR.necro.rect;
-  // minX, minY, maxX, maxY
-  const rectangle = Rectangle.create(rect[0][0], rect[0][1], rect[1][0], rect[1][1]);
 
-  const region = Region.create();
-  region.addRect(rectangle);
+  // minX, minY, maxX, maxY
+  const rect = DECOR.necro.rect;
+  const region = createRegion(rect[0][0], rect[0][1], rect[1][0], rect[1][1]);
 
   function action(): void {
     const unit = Unit.fromHandle(GetEnteringUnit()) as Unit;

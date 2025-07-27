@@ -8099,3 +8099,33 @@ STRING 1619
 Takes |cffc0c0c0100|r% from all attack types
 }
 
+STRING 1620
+// Doodads: D00B (Shore Line), Name (Name)
+{
+Shore Line
+}
+
+STRING 1622
+// Doodads: D00C (Grass Tuft 0), Name (Name)
+{
+Grass Tuft 0
+}
+
+STRING 1623
+// Doodads: D00D (Grass Tuft 1), Name (Name)
+{
+Grass Tuft 1
+}
+
+STRING 1624
+// Doodads: D00E (Grass Tuft 2), Name (Name)
+{
+Grass Tuft 2
+}
+
+STRING 1625
+// Doodads: D00F (Grass Tuft 3), Name (Name)
+{
+Grass Tuft 3
+}
+

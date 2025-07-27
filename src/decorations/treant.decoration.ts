@@ -12,6 +12,12 @@ export default function treantDecoration() {
   const player = MapPlayer.fromIndex(GAME.enemyPlayerId) as MapPlayer;
 
   const treeId = FourCC(DECOR.treant.tree);
+  const rect = Rectangle.create(
+    DECOR.treant.rect[0][0],
+    DECOR.treant.rect[0][1],
+    DECOR.treant.rect[1][0],
+    DECOR.treant.rect[1][1]
+  ) as Rectangle;
 
   const unit = Unit.create(
     player,
@@ -24,14 +30,9 @@ export default function treantDecoration() {
   unit.invulnerable = true;
   unit.queueAnimation(DECOR.treant.animation);
 
+  // Pick all wisps and detonate
   runTimer(
     function () {
-      const rect = Rectangle.create(
-        DECOR.treant.rect[0][0],
-        DECOR.treant.rect[0][1],
-        DECOR.treant.rect[1][0],
-        DECOR.treant.rect[1][1]
-      ) as Rectangle;
       const group = Group.fromHandle(GetUnitsInRectAll(rect.handle)) as Group;
       const point = Point.create(
         DECOR.treant.wispOrder[0],
@@ -46,6 +47,9 @@ export default function treantDecoration() {
         DECOR.treant.effectPos[1],
         DECOR.treant.effectTimer
       );
+
+      group.destroy();
+      point.destroy();
     },
     DECOR.treant.effectTimer,
     true
@@ -68,6 +72,8 @@ export default function treantDecoration() {
         DECOR.treant.wispOrder[1]
       );
       wisp.issuePointOrder(OrderId.Move, point);
+
+      point.destroy();
     },
     DECOR.treant.wispTimer,
     true

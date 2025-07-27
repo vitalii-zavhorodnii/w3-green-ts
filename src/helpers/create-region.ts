@@ -5,10 +5,10 @@ export default function createRegion(
   botLeftY: number,
   topRightX: number,
   topRightY: number
-): region {
+): Region {
   const rectangle = Rectangle.create(botLeftX, botLeftY, topRightX, topRightY);
   const region = Region.create();
   region.addRect(rectangle);
 
-  return region.handle;
+  return region;
 }
