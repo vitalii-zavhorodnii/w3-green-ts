@@ -707,90 +707,6 @@ STRING 239
 Slams the ground, stunning nearby enemy land units for |cffffcc00<A00I:AOws,Dur1>|r seconds
 }
 
-STRING 240
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA1>|r
-}
-
-STRING 241
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA2>|r
-}
-
-STRING 242
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA3>|r
-}
-
-STRING 243
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA4>|r
-}
-
-STRING 244
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA5>|r
-}
-
-STRING 245
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA6>|r
-}
-
-STRING 246
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA7>|r
-}
-
-STRING 247
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA8>|r
-}
-
-STRING 248
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA9>|r
-}
-
-STRING 249
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA10>|r
-}
-
-STRING 250
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA11>|r
-}
-
-STRING 251
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA12>|r
-}
-
-STRING 252
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA13>|r
-}
-
-STRING 253
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA14>|r
-}
-
 STRING 254
 // Abilities: A00K (Critical Strike), Ubertip (Tooltip - Normal - Extended)
 {
@@ -819,102 +735,6 @@ STRING 259
 // Abilities: A00G (Aura of Strength), Ubertip (Tooltip - Normal - Extended)
 {
 Increases nearby allied units damage |cffffcc00<A00G:Aakb,DataA1,%>%|r
-}
-
-STRING 261
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA16>|r
-}
-
-STRING 262
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA17>|r
-}
-
-STRING 263
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA18>|r
-}
-
-STRING 264
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA19>|r
-}
-
-STRING 265
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA15>|r
-}
-
-STRING 266
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA21>|r
-}
-
-STRING 267
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA22>|r
-}
-
-STRING 268
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA23>|r
-}
-
-STRING 269
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA24>|r
-}
-
-STRING 270
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA25>|r
-}
-
-STRING 271
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA27>|r
-}
-
-STRING 272
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA29>|r
-}
-
-STRING 273
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA30>|r
-}
-
-STRING 274
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA28>|r
-}
-
-STRING 275
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA26>|r
-}
-
-STRING 276
-// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
-{
-Reduces enemy armor by |cffffcc00<A00J:AHad,DataA20>|r
 }
 
 STRING 277
@@ -6052,22 +5872,10 @@ STRING 1195
 Q
 }
 
-STRING 1196
-// Abilities: A00E (Roar), Ubertip (Tooltip - Normal - Extended)
-{
-Gives friendly nearby units a |cffffcc00<<Aroa,DataA1,%>%|r bonus to damage. |nLasts |cffffcc00<<Aroa,Dur1>|r seconds.
-}
-
 STRING 1197
 // Units: h00P (Siege |cffffcc003|r), Hotkey (Hotkey)
 {
 Q
-}
-
-STRING 1198
-// Abilities: A00D (Disenchant), Ubertip (Tooltip - Normal - Extended)
-{
-Removes all buffs from units in a target area
 }
 
 STRING 1209
@@ -6167,7 +5975,7 @@ Mana Capacity
 }
 
 STRING 1226
-// Upgrades: R003 (Priest Adept Training,Priest Master Training), Hotkey (Hotkey)
+// Abilities: A00V (Devour Magic), Hotkey (Hotkey - Normal)
 {
 W
 }
@@ -6334,30 +6142,6 @@ STRING 1258
 Aura mastery: Haste
 }
 
-STRING 1264
-// Abilities: A00G (Aura of Strength), Tip (Tooltip - Normal)
-{
-Aura of Strength
-}
-
-STRING 1265
-// Abilities: A00G (Aura of Strength), Tip (Tooltip - Normal)
-{
-Aura of Strength
-}
-
-STRING 1266
-// Abilities: A00G (Aura of Strength), Tip (Tooltip - Normal)
-{
-Aura of Strength
-}
-
-STRING 1267
-// Abilities: A00G (Aura of Strength), Tip (Tooltip - Normal)
-{
-Aura of Strength
-}
-
 STRING 1268
 // Abilities: A00G (Aura of Strength), Ubertip (Tooltip - Normal - Extended)
 {
@@ -6380,30 +6164,6 @@ STRING 1271
 // Abilities: A00G (Aura of Strength), Ubertip (Tooltip - Normal - Extended)
 {
 Increases nearby allied units damage |cffffcc00<A00G:Aakb,DataA5,%>%|r
-}
-
-STRING 1272
-// Abilities: A00H (Aura of Haste), Tip (Tooltip - Normal)
-{
-Aura of Haste
-}
-
-STRING 1273
-// Abilities: A00H (Aura of Haste), Tip (Tooltip - Normal)
-{
-Aura of Haste
-}
-
-STRING 1274
-// Abilities: A00H (Aura of Haste), Tip (Tooltip - Normal)
-{
-Aura of Haste
-}
-
-STRING 1275
-// Abilities: A00H (Aura of Haste), Tip (Tooltip - Normal)
-{
-Aura of Haste
 }
 
 STRING 1276
@@ -6479,7 +6239,7 @@ Aura mastery: Haste
 }
 
 STRING 1288
-// Upgrades: R004 (Sorceress Adept Training,Sorceress Master Training), Hotkey (Hotkey)
+// Abilities: A00E (Roar), Hotkey (Hotkey - Normal)
 {
 Z
 }
@@ -6509,7 +6269,7 @@ Z
 }
 
 STRING 1293
-// Upgrades: R005 (Sorceress Adept Training,Sorceress Master Training), Hotkey (Hotkey)
+// Abilities: A018 (Cluster Rockets), Hotkey (Hotkey - Normal)
 {
 X
 }
@@ -8127,5 +7887,467 @@ STRING 1625
 // Doodads: D00F (Grass Tuft 3), Name (Name)
 {
 Grass Tuft 3
+}
+
+STRING 1626
+// Abilities: A00G (Aura of Strength), EditorSuffix (Editor Suffix)
+{
+(altar)
+}
+
+STRING 1627
+// Abilities: A00H (Aura of Haste), EditorSuffix (Editor Suffix)
+{
+(altar)
+}
+
+STRING 1636
+// Abilities: A014 (Curse (Neutral Hostile)), Name (Name)
+{
+Curse (Neutral Hostile)
+}
+
+STRING 1647
+// Upgrades: R00A (Sorceress Adept Training,Sorceress Master Training), Name (Name)
+{
+Adept Training
+}
+
+STRING 1648
+// Upgrades: R00A (Sorceress Adept Training,Sorceress Master Training), Tip (Tooltip)
+{
+Adept Training
+}
+
+STRING 1649
+// Upgrades: R00A (Sorceress Adept Training,Sorceress Master Training), Name (Name)
+{
+Master Training
+}
+
+STRING 1650
+// Upgrades: R00A (Sorceress Adept Training,Sorceress Master Training), Tip (Tooltip)
+{
+Master Training
+}
+
+STRING 1651
+// Upgrades: R00A (Sorceress Adept Training,Sorceress Master Training), Ubertip (Tooltip - Extended)
+{
+Allows to use Tier 2 spells in the Altar
+}
+
+STRING 1652
+// Upgrades: R00A (Sorceress Adept Training,Sorceress Master Training), Ubertip (Tooltip - Extended)
+{
+Allows to use Tier 3 spells in the Altar
+}
+
+STRING 1653
+// Upgrades: R00A (Sorceress Adept Training,Sorceress Master Training), EditorSuffix (Editor Suffix)
+{
+(altar spells)
+}
+
+STRING 1654
+// Upgrades: R00A (Sorceress Adept Training,Sorceress Master Training), EditorSuffix (Editor Suffix)
+{
+(altar spells)
+}
+
+STRING 1656
+// Abilities: A00W (Unholy Frenzy), Hotkey (Hotkey - Normal)
+{
+E
+}
+
+STRING 1658
+// Abilities: A016 (Toxic Bomb), Hotkey (Hotkey - Normal)
+{
+A
+}
+
+STRING 1659
+// Upgrades: R003 (Priest Adept Training,Priest Master Training), Hotkey (Hotkey)
+{
+W
+}
+
+STRING 1660
+// Upgrades: R004 (Sorceress Adept Training,Sorceress Master Training), Hotkey (Hotkey)
+{
+Z
+}
+
+STRING 1661
+// Upgrades: R005 (Sorceress Adept Training,Sorceress Master Training), Hotkey (Hotkey)
+{
+X
+}
+
+STRING 1662
+// Abilities: A011 (Mana Burn), Hotkey (Hotkey - Normal)
+{
+F
+}
+
+STRING 1663
+// Abilities: A00G (Aura of Strength), Tip (Tooltip - Normal)
+{
+Aura of Strength [|cffffcc00Level 2|r]
+}
+
+STRING 1664
+// Abilities: A00G (Aura of Strength), Tip (Tooltip - Normal)
+{
+Aura of Strength [|cffffcc00Level 3|r]
+}
+
+STRING 1665
+// Abilities: A00G (Aura of Strength), Tip (Tooltip - Normal)
+{
+Aura of Strength [|cffffcc00Level 4|r]
+}
+
+STRING 1666
+// Abilities: A00G (Aura of Strength), Tip (Tooltip - Normal)
+{
+Aura of Strength [|cffffcc00Level 5|r]
+}
+
+STRING 1667
+// Abilities: A00H (Aura of Haste), Tip (Tooltip - Normal)
+{
+Aura of Haste [|cffffcc00Level 2|r]
+}
+
+STRING 1668
+// Abilities: A00H (Aura of Haste), Tip (Tooltip - Normal)
+{
+Aura of Haste [|cffffcc00Level 3|r]
+}
+
+STRING 1669
+// Abilities: A00H (Aura of Haste), Tip (Tooltip - Normal)
+{
+Aura of Haste [|cffffcc00Level 4|r]
+}
+
+STRING 1670
+// Abilities: A00H (Aura of Haste), Tip (Tooltip - Normal)
+{
+Aura of Haste [|cffffcc00Level 5|r]
+}
+
+STRING 1672
+// Abilities: A016 (Toxic Bomb), Tip (Tooltip - Normal)
+{
+Toxic Bomb
+}
+
+STRING 1673
+// Abilities: A016 (Toxic Bomb), Name (Name)
+{
+Toxic Bomb
+}
+
+STRING 1674
+// Abilities: A00E (Roar), EditorSuffix (Editor Suffix)
+{
+(tier 3)
+}
+
+STRING 1675
+// Abilities: A00D (Disenchant), EditorSuffix (Editor Suffix)
+{
+(tier 1)
+}
+
+STRING 1676
+// Abilities: A00U (Spirit Link), EditorSuffix (Editor Suffix)
+{
+(tier 1)
+}
+
+STRING 1677
+// Abilities: A00V (Devour Magic), EditorSuffix (Editor Suffix)
+{
+(tier 1)
+}
+
+STRING 1678
+// Abilities: A00W (Unholy Frenzy), EditorSuffix (Editor Suffix)
+{
+(tier 1)
+}
+
+STRING 1679
+// Abilities: A010 (Death And Decay), EditorSuffix (Editor Suffix)
+{
+(tier 2)
+}
+
+STRING 1680
+// Abilities: A011 (Mana Burn), EditorSuffix (Editor Suffix)
+{
+(tier 2)
+}
+
+STRING 1681
+// Abilities: A016 (Toxic Bomb), EditorSuffix (Editor Suffix)
+{
+(tier 2)
+}
+
+STRING 1682
+// Abilities: A018 (Cluster Rockets), EditorSuffix (Editor Suffix)
+{
+(tier 3)
+}
+
+STRING 1683
+// Abilities: A00D (Disenchant), Ubertip (Tooltip - Normal - Extended)
+{
+Removes all buffs from enemy units in a target area
+}
+
+STRING 1684
+// Abilities: A00E (Roar), Ubertip (Tooltip - Normal - Extended)
+{
+Gives friendly nearby units a |cffffcc00<A00E:Aroa,DataA1,%>%|r bonus to damage. Lasts |cffffcc00<A00E:Aroa,Dur1> seconds|r
+}
+
+STRING 1685
+// Abilities: A00V (Devour Magic), Ubertip (Tooltip - Normal - Extended)
+{
+Consumes all magical buffs from enemy units in an area. Each unit that is devoured of magic gives |cffffcc00<A00V:Advm,DataB1> mana|r
+}
+
+STRING 1686
+// Abilities: A00W (Unholy Frenzy), Ubertip (Tooltip - Normal - Extended)
+{
+Increases the attack rate of a target unit by |cffffcc00<A00W:Auhf,DataA1,%>%|r. Lasts |cffffcc00<A00W:Auhf,Dur1> seconds|r
+}
+
+STRING 1687
+// Abilities: A011 (Mana Burn), Tip (Tooltip - Normal)
+{
+Mana Burn
+}
+
+STRING 1688
+// Abilities: A010 (Death And Decay), Ubertip (Tooltip - Normal - Extended)
+{
+Damages enemies in area of effect by |cffffcc00<A010:AUdd,DataA1,%>%|r of its max hit points per second. Lasts |cffffcc00<A010:AUdd,Dur1> seconds|r
+}
+
+STRING 1689
+// Abilities: A011 (Mana Burn), Ubertip (Tooltip - Normal - Extended)
+{
+Sends a bolt of negative energy to enemy unit that burns up to |cffffcc00<A011:AEmb,DataA1> mana|r. The mana combusts, dealing damage equal to the amount of mana burned.
+}
+
+STRING 1690
+// Abilities: A016 (Toxic Bomb), Ubertip (Tooltip - Normal - Extended)
+{
+Hurls a flask of acid at a target. The flask breaks upon impact, splashing a powerful acid on nearby hostile units. Decreases |cffffcc00armor|r by |cffffcc00<A016:ANab,DataC1>|r and |cffffcc00movement speed|r by |cffffcc00<A016:ANab,DataA1,%>%|r. Lasts |cffffcc00<A016:ANab,Dur1> seconds|r
+}
+
+STRING 1691
+// Abilities: A018 (Cluster Rockets), Tip (Tooltip - Normal)
+{
+Cluster Rockets
+}
+
+STRING 1692
+// Abilities: A018 (Cluster Rockets), Ubertip (Tooltip - Normal - Extended)
+{
+Bombards an area with rockets, stunning enemies for |cffffcc00<A018:ANcs,Dur1> seconds|r
+}
+
+STRING 1693
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA1>|r
+}
+
+STRING 1694
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA2>|r
+}
+
+STRING 1695
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA3>|r
+}
+
+STRING 1696
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA4>|r
+}
+
+STRING 1697
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA5>|r
+}
+
+STRING 1698
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA6>|r
+}
+
+STRING 1699
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA7>|r
+}
+
+STRING 1700
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA8>|r
+}
+
+STRING 1701
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA9>|r
+}
+
+STRING 1702
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA10>|r
+}
+
+STRING 1703
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA11>|r
+}
+
+STRING 1704
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA12>|r
+}
+
+STRING 1705
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA13>|r
+}
+
+STRING 1706
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA14>|r
+}
+
+STRING 1707
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA16>|r
+}
+
+STRING 1708
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA17>|r
+}
+
+STRING 1709
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA18>|r
+}
+
+STRING 1710
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA19>|r
+}
+
+STRING 1711
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA15>|r
+}
+
+STRING 1712
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA21>|r
+}
+
+STRING 1713
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA22>|r
+}
+
+STRING 1714
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA23>|r
+}
+
+STRING 1715
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA24>|r
+}
+
+STRING 1716
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA25>|r
+}
+
+STRING 1717
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA27>|r
+}
+
+STRING 1718
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA29>|r
+}
+
+STRING 1719
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA30>|r
+}
+
+STRING 1720
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA28>|r
+}
+
+STRING 1721
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA26>|r
+}
+
+STRING 1722
+// Abilities: A00J (Desolace Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Reduces nearby enemy armor by |cffffcc00<A00J:AHad,DataA20>|r
+}
+
+STRING 1723
+// Abilities: A00U (Spirit Link), Ubertip (Tooltip - Normal - Extended)
+{
+Links |cffffcc00<A00U:Aspl,DataB1>|r units together in a chain. All units with Spirit Link on them will distribute |cffffcc00<A00U:Aspl,DataA1,%>%|r of the damage they take across other Spirit Linked units. Lasts |cffffcc00<A00U:Aspl,Dur1> seconds|r
 }
 

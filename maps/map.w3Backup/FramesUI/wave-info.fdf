@@ -1,0 +1,36 @@
+Frame "BACKDROP" "WAVE_INFO"
+{   
+    SetPoint TOPLEFT, "ConsoleUI", TOPLEFT, 0, 0,
+    SetAllPoints,
+    UseActiveContext,
+    Width 0.90,
+    Height 0.90,
+    BackdropEdgeFile "UI\Widgets\BattleNet\bnet-inputbox-border.blp",
+    BackdropLeftFile "UI\Widgets\ButtonLeft.blp",
+    BackdropRightFile "UI\Widgets\ButtonRight.blp",
+    BackdropTopFile "UI\Widgets\ButtonTop.blp", 
+    BackdropTileBackground,
+    BackdropBackground 'ReplaceableTextures\\CommandButtons\\BTNShamanMaster.blp',
+}
+
+Frame "BACKDROP" "WAVE_BACKDROP"
+{
+    SetPoint TOPLEFT, "ConsoleUI", TOPLEFT, 0, 0,
+    Width 0.05,
+    Height 0.05,
+}
+
+Frame "BACKDROP" "WAVE_ICON"
+{
+    SetPoint CENTER, "WAVE_BACKDROP", CENTER, 0.0, 0.0,
+    UseActiveContext,
+    BackdropBackground 'ReplaceableTextures\\CommandButtons\\BTNShamanMaster.blp',
+    SetAllPoints,
+}
+
+Frame "TEXT" "WAVE_TITLE"
+{
+    SetPoint CENTER 0.0, 0.0,
+    UseActiveContext,
+    Anchor LEFT,
+}

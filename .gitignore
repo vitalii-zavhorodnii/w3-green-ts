@@ -2,8 +2,6 @@
 /node_modules
 /dist
 /maps/temp
-/maps/map.w3Backup
-/maps/map.w3x
 
 target
 package-lock.json
