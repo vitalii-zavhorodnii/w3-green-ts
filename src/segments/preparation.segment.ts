@@ -1,6 +1,6 @@
-import showWaveInfo from '@ui/show-wave-info';
-
 import gameSegment from '@segments/game.segment';
+
+import showWaveInfo from '@ui/show-wave-info';
 
 import autoBuildTrigger from '@triggers/autobuild.trigger';
 import autoUpgradeTrigger from '@triggers/autoupgrade.trigger';
@@ -8,6 +8,7 @@ import blinkTrigger from '@triggers/blink.trigger';
 import checkOverCapTrigger from '@triggers/check-overcap.trigger';
 import creepLootTrigger from '@triggers/creep-loot.trigger';
 import creepsCleanTrigger from '@triggers/creeps-clean.trigger';
+import sellTowerTrigger from '@triggers/sell-tower.trigger';
 
 import createQuestLog from '@scripts/create-questlog';
 import playersSettings from '@scripts/players-settings';
@@ -39,6 +40,7 @@ export default function preparationSegment() {
   // Register triggers
   autoBuildTrigger();
   autoUpgradeTrigger();
+  sellTowerTrigger();
   creepsCleanTrigger();
   blinkTrigger();
 

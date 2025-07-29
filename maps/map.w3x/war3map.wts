@@ -8375,3 +8375,27 @@ STRING 1727
 Harpy
 }
 
+STRING 1728
+// Abilities: A00X (Sell), Hotkey (Hotkey - Normal)
+{
+R
+}
+
+STRING 1729
+// Abilities: A00X (Sell), Name (Name)
+{
+Sell
+}
+
+STRING 1730
+// Abilities: A00X (Sell), Tip (Tooltip - Normal)
+{
+Sell
+}
+
+STRING 1731
+// Abilities: A00X (Sell), Ubertip (Tooltip - Normal - Extended)
+{
+Sell Warden for full price
+}
+

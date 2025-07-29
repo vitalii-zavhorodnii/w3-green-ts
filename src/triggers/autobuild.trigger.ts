@@ -8,19 +8,17 @@ export default function autoBuildTrigger() {
   const trigger = Trigger.create();
 
   function action(): void {
-    const unit = Unit.fromHandle(GetConstructingStructure());
-    const player = MapPlayer.fromEvent();
+    const unit = Unit.fromHandle(GetConstructingStructure()) as Unit;
+    const player = MapPlayer.fromEvent() as MapPlayer;
 
-    if (unit && player) {
-      const id = unit.typeId;
+    const id = unit.typeId;
 
-      unit.destroy();
+    unit.destroy();
 
-      const building = Unit.create(player, id, unit.x, unit.y, 245.0) as Unit;
-      building.invulnerable = true;
+    const building = Unit.create(player, id, unit.x, unit.y, 245.0) as Unit;
+    building.invulnerable = true;
 
-      createVFX(VFX.Teleport, unit.x, unit.y);
-    }
+    createVFX(VFX.Teleport, unit.x, unit.y);
   }
 
   trigger.addAction(action);

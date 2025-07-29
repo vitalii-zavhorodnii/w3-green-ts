@@ -11,5 +11,6 @@ export const VFX = {
   RitualDagger: 'Abilities\\Spells\\Items\\RitualDagger\\RitualDaggerTarget.mdl',
   RaiseDead: "Abilities\\Spells\\Undead\\RaiseSkeletonWarrior\\RaiseSkeleton.mdl",
   FlameStrike: 'Abilities\\Spells\\Human\\FlameStrike\\FlameStrikeEmbers.mdl',
-  Roar: 'Abilities\\Spells\\NightElf\\BattleRoar\\RoarCaster.mdl'
+  Roar: 'Abilities\\Spells\\NightElf\\BattleRoar\\RoarCaster.mdl',
+  Gold: 'Abilities\\Spells\\Other\\Transmute\\PileofGold.mdl'
 };
