@@ -8351,3 +8351,27 @@ STRING 1723
 Links |cffffcc00<A00U:Aspl,DataB1>|r units together in a chain. All units with Spirit Link on them will distribute |cffffcc00<A00U:Aspl,DataA1,%>%|r of the damage they take across other Spirit Linked units. Lasts |cffffcc00<A00U:Aspl,Dur1> seconds|r
 }
 
+STRING 1724
+// Units: nowb (Moonkin), Name (Name)
+{
+Moonkin
+}
+
+STRING 1725
+// Units: nfor (Faceless One), Name (Name)
+{
+Faceless One
+}
+
+STRING 1726
+// Units: nwzr (Wizard), Name (Name)
+{
+Wizard
+}
+
+STRING 1727
+// Units: nhrr (Harpy), Name (Name)
+{
+Harpy
+}
+
