@@ -11,7 +11,7 @@ export default function updatePlayerOnlineTrigger(leaderboardLUA: leaderboard) {
     QuestMessageBJ(
       GetPlayersAll() as force,
       bj_QUESTMESSAGE_HINT,
-      `${GAME.playerColor[player.id].code}${player}|r |cffffcc00has left the game|r`
+      `${GAME.playerColor[player.id].code}${player.name}|r |cffffcc00has left the game|r`
     );
 
     LeaderboardSetPlayerItemLabelBJ(player.handle, leaderboardLUA, 'Left the game');
@@ -23,7 +23,7 @@ export default function updatePlayerOnlineTrigger(leaderboardLUA: leaderboard) {
   }
 
   trigger.addAction(action);
-  
+
   for (let i = 0; i < GAME.maxPlayers; i++) {
     const player = MapPlayer.fromIndex(i) as MapPlayer;
 

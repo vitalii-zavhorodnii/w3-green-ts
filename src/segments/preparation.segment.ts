@@ -1,6 +1,6 @@
-import gameSegment from '@segments/game.segment';
+import voitingSegment from '@segments/voiting.segment';
 
-import showWaveInfo from '@ui/show-wave-info';
+// import showWaveInfo from '@ui/show-wave-info';
 
 import autoBuildTrigger from '@triggers/autobuild.trigger';
 import autoUpgradeTrigger from '@triggers/autoupgrade.trigger';
@@ -70,5 +70,6 @@ export default function preparationSegment() {
   );
 
   // Activate main game segment
-  runTimer(gameSegment, GAME.startSegmentTimer, false, 'Preparation');
+  // runTimer(voitingSegment, GAME.voitSegmentTimer, false, 'Voiting');
+  voitingSegment();
 }

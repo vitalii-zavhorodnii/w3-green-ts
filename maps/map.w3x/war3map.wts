@@ -6511,31 +6511,31 @@ Q
 }
 
 STRING 1337
-// Abilities: Adcn (Disenchant), Hotkey (Hotkey - Normal)
+// Units: o015 (Berserk |cffffcc0011|r), Hotkey (Hotkey)
 {
 Q
 }
 
 STRING 1338
-// Abilities: A00D (Disenchant), Hotkey (Hotkey - Normal)
+// Units: o016 (Berserk |cffffcc0012|r), Hotkey (Hotkey)
 {
 Q
 }
 
 STRING 1339
-// Upgrades: R002 (Priest Adept Training,Priest Master Training), Hotkey (Hotkey)
+// Units: o017 (Berserk |cffffcc0013|r), Hotkey (Hotkey)
 {
 Q
 }
 
 STRING 1340
-// Upgrades: R002 (Priest Adept Training,Priest Master Training), Hotkey (Hotkey)
+// Abilities: Adcn (Disenchant), Hotkey (Hotkey - Normal)
 {
 Q
 }
 
 STRING 1341
-// Upgrades: R002 (Priest Adept Training,Priest Master Training), Hotkey (Hotkey)
+// Abilities: A00D (Disenchant), Hotkey (Hotkey - Normal)
 {
 Q
 }
@@ -8397,5 +8397,104 @@ STRING 1731
 // Abilities: A00X (Sell), Ubertip (Tooltip - Normal - Extended)
 {
 Sell Warden for full price
+}
+
+STRING 1732
+// Units: o015 (Berserk |cffffcc0011|r), Name (Name)
+{
+Berserk |cffffcc0011|r
+}
+
+STRING 1733
+// Units: o015 (Berserk |cffffcc0011|r), EditorSuffix (Name - Editor Suffix)
+{
+11
+}
+
+STRING 1734
+// Units: o015 (Berserk |cffffcc0011|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1735
+// Units: o015 (Berserk |cffffcc0011|r), Tip (Tooltip - Basic)
+{
+Upgrade to |cffffcc00Berserk 11|r
+}
+
+STRING 1736
+// Units: o016 (Berserk |cffffcc0012|r), Name (Name)
+{
+Berserk |cffffcc0012|r
+}
+
+STRING 1737
+// Units: o016 (Berserk |cffffcc0012|r), EditorSuffix (Name - Editor Suffix)
+{
+12
+}
+
+STRING 1738
+// Units: o016 (Berserk |cffffcc0012|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1739
+// Units: o016 (Berserk |cffffcc0012|r), Tip (Tooltip - Basic)
+{
+Upgrade to |cffffcc00Berserk 12|r
+}
+
+STRING 1740
+// Upgrades: R002 (Priest Adept Training,Priest Master Training), Hotkey (Hotkey)
+{
+Q
+}
+
+STRING 1741
+// Upgrades: R002 (Priest Adept Training,Priest Master Training), Hotkey (Hotkey)
+{
+Q
+}
+
+STRING 1742
+// Units: o017 (Berserk |cffffcc0013|r), Name (Name)
+{
+Berserk |cffffcc0013|r
+}
+
+STRING 1743
+// Units: o017 (Berserk |cffffcc0013|r), EditorSuffix (Name - Editor Suffix)
+{
+13
+}
+
+STRING 1744
+// Units: o017 (Berserk |cffffcc0013|r), Ubertip (Tooltip - Extended)
+{
+Warden Berserk has |cff8c8c8cPierce|r attack type.
+|cffffcc00Abilities:|r Frenzy, Bash
+
+|cffffcc00Attacks land and air units|r
+}
+
+STRING 1745
+// Units: o017 (Berserk |cffffcc0013|r), Tip (Tooltip - Basic)
+{
+Upgrade to |cffffcc00Berserk 13|r
+}
+
+STRING 1746
+// Upgrades: R002 (Priest Adept Training,Priest Master Training), Hotkey (Hotkey)
+{
+Q
 }
 

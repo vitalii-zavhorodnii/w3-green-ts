@@ -10,13 +10,17 @@ export default function runTimer(
   const dialog = TimerDialog.create(timer) as TimerDialog;
 
   timer.start(time, periodic, function () {
-    if (callback) callback();
-    if (!periodic) timer.destroy();
+    if (!periodic) {
+      timer.destroy();
+      dialog.destroy();
+    }
 
-    dialog?.destroy();
+    if (callback) {
+      callback();
+    }
   });
 
-  if (title && dialog) {
+  if (title && dialog && !periodic) {
     dialog.setTitle(title);
     dialog.display = true;
   }

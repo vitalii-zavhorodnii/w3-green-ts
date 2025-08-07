@@ -13,7 +13,7 @@ import shuffleArray from '@helpers/shuffle-array';
 import { GAME } from '@constants/game.constants';
 import { CREEPS } from '@constants/waves-creeps';
 
-export default function gameSegment() {
+export default function gameSegment(): void {
   const unitBlanksList = shuffleArray(CREEPS);
 
   let wave = 0;

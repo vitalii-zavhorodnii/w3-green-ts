@@ -1,12 +1,12 @@
-export const SPAWNTYPE = {
-  single: 'SINGLE',
-  triple: 'TRIPLE'
-};
-
 // |cffe1a800Unarmored|r
 // |cff8c8c8cLight Armor|r
 // |cff8080ffHeavy Armor|r
 // |cffd45e19Fortified|r
+//
+export const SPAWNTYPE = {
+  single: 'SINGLE',
+  triple: 'TRIPLE'
+};
 
 export const CREEPS: ICREEPBLANK[] = [
   // UNARMORED

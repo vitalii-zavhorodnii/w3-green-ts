@@ -16,6 +16,8 @@ export default function generateWave(
     preset = DEFAULT_PRESET;
   }
 
+  print('gg_game_Difficulty', gg_game_Difficulty);
+
   const { unit, name, armorTypeName, isFlyable } = unitBlanksList[wave];
   const { interval, spawnType, spawns } = preset;
   const { speed, maxMana, reduceHp, reduceArmor, reduceBounty } = preset;

@@ -1,10 +1,11 @@
 export const GAME = {
+  voitingSegmentTimer: 10, // 20
+  startSegmentTimer: 30, // 30
+  startGold: 180, // 180
+  startWood: 0, // 0
   maxPlayers: 6, // 6
   enemyPlayerId: 9, // 9
   decorPlayerId: 6, // 6
-  startGold: 180, // 180
-  startWood: 0, // 0
-  startSegmentTimer: 30, // 30
   capPerPlayer: 50, // 50
   presetStartLvl: 3,
   extentionsRound: 3, // 3 do not set lower then 1
