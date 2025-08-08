@@ -7820,30 +7820,6 @@ STRING 1605
 Summon
 }
 
-STRING 1608
-// Upgrades: R006 (Reinforced Defenses), Name (Name)
-{
-Change Armor type Fortified
-}
-
-STRING 1609
-// Upgrades: R007 (Reinforced Defenses), Name (Name)
-{
-Change Armor type Unarmored
-}
-
-STRING 1610
-// Upgrades: R008 (Reinforced Defenses), Name (Name)
-{
-Change Armor type Light
-}
-
-STRING 1611
-// Upgrades: R009 (Reinforced Defenses), Name (Name)
-{
-Change Armor type Heavy
-}
-
 STRING 1617
 {
 Takes |cffc0c0c0100|r% from all attack types
@@ -8496,5 +8472,125 @@ STRING 1746
 // Upgrades: R002 (Priest Adept Training,Priest Master Training), Hotkey (Hotkey)
 {
 Q
+}
+
+STRING 1747
+// Abilities: A00Z (Inventory), EditorSuffix (Editor Suffix)
+{
+(Warden)
+}
+
+STRING 1748
+// Upgrades: R006 (Berserker Upgrade), EditorSuffix (Editor Suffix)
+{
+(Warden upgrade)
+}
+
+STRING 1749
+// Upgrades: R006 (Berserker Upgrade), Name (Name)
+{
+Range Upgrade
+}
+
+STRING 1750
+// Upgrades: R006 (Berserker Upgrade), effect1 (Effect 1)
+{
+ratr
+}
+
+STRING 1751
+// Upgrades: R007 (Berserker Upgrade), EditorSuffix (Editor Suffix)
+{
+(Warden upgrade)
+}
+
+STRING 1752
+// Upgrades: R007 (Berserker Upgrade), Name (Name)
+{
+Attack Speed Upgrade
+}
+
+STRING 1753
+// Upgrades: R007 (Berserker Upgrade), effect1 (Effect 1)
+{
+rats
+}
+
+STRING 1754
+// Items: I002 (Gloves of Haste |cffffcc00+10%|r), Ubertip (Tooltip - Extended)
+{
+Increases the attack speed of the owner by |cffffcc00<A019:Alsx,DataA1,%>%|r when worn
+}
+
+STRING 1755
+// Abilities: A019 (Item Attack Speed), Name (Name)
+{
+Item Attack Speed
+}
+
+STRING 1756
+// Abilities: A019 (Item Attack Speed), EditorSuffix (Editor Suffix)
+{
+(10)
+}
+
+STRING 1757
+// Items: I002 (Gloves of Haste |cffffcc00+10%|r), Name (Name)
+{
+Gloves of Haste |cffffcc00+10%|r
+}
+
+STRING 1758
+// Items: I003 (Gloves of Haste |cffffcc00+15%|r), Ubertip (Tooltip - Extended)
+{
+Increases the attack speed of the owner by |cffffcc00<A01A:Alsx,DataA1,%>%|r when worn
+}
+
+STRING 1759
+// Items: I003 (Gloves of Haste |cffffcc00+15%|r), Name (Name)
+{
+Gloves of Haste |cffffcc00+15%|r
+}
+
+STRING 1760
+// Items: I004 (Gloves of Haste |cffffcc00+20%|r), Ubertip (Tooltip - Extended)
+{
+Increases the attack speed of the owner by |cffffcc00<A01B:Alsx,DataA1,%>%|r when worn
+}
+
+STRING 1761
+// Items: I004 (Gloves of Haste |cffffcc00+20%|r), Name (Name)
+{
+Gloves of Haste |cffffcc00+20%|r
+}
+
+STRING 1762
+// Abilities: A01A (Item Attack Speed), Name (Name)
+{
+Item Attack Speed
+}
+
+STRING 1763
+// Abilities: A01A (Item Attack Speed), EditorSuffix (Editor Suffix)
+{
+(15)
+}
+
+STRING 1764
+// Abilities: A01B (Item Attack Speed), Name (Name)
+{
+Item Attack Speed
+}
+
+STRING 1765
+// Abilities: A01B (Item Attack Speed), EditorSuffix (Editor Suffix)
+{
+(20)
+}
+
+STRING 1766
+// Abilities: A01C (Item Attack Damage (+1)), Name (Name)
+{
+Item Attack Damage (+1)
 }
 

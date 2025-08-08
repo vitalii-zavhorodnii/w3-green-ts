@@ -6,6 +6,7 @@ import spawnSunctum from '@scripts/spawn-sunctum';
 // import generateBoss from '@scripts/waves/generate-boss';
 import generateWave from '@scripts/waves/generate-wave';
 import spawnWave from '@scripts/waves/spawn-wave';
+import showWaveInfo from '@ui/show-wave-info';
 
 import runTimer from '@helpers/run-timer';
 import shuffleArray from '@helpers/shuffle-array';
@@ -47,12 +48,14 @@ export default function gameSegment(): void {
   function startWave(): void {
     const waveData: IWAVEDATA = generateWave(wave, unitBlanksList);
 
-    QuestMessageBJ(
-      GetPlayersAll() as force,
-      bj_QUESTMESSAGE_UNITACQUIRED,
-      `|cffffcc00Wave ${wave}|r - ${waveData.armorTypeName}|r
-|cffffcc00${waveData.count}|r spawns of |cffffcc00${waveData.name}|r
-|cffc80000${waveData.maxLife}|r hp - |cff008000${waveData.armor}|r armor - |cff00ffff${waveData.speed}|r speed`
+    showWaveInfo(
+      wave,
+      waveData.name,
+      waveData.armorTypeName,
+      waveData.speed,
+      waveData.maxLife,
+      waveData.armor,
+      waveData.icon
     );
 
     spawnWave({ wave, waveData, callback: () => updateWave() });

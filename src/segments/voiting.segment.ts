@@ -63,7 +63,7 @@ export default function voitingSegment(): void {
     const player = MapPlayer.fromIndex(i) as MapPlayer;
 
     players++;
-    dialog.display(player, true);
+    // dialog.display(player, true);
   }
 
   runTimer(endVoiting, GAME.voitingSegmentTimer, false, 'Voiting');

@@ -16,9 +16,7 @@ export default function generateWave(
     preset = DEFAULT_PRESET;
   }
 
-  print('gg_game_Difficulty', gg_game_Difficulty);
-
-  const { unit, name, armorTypeName, isFlyable } = unitBlanksList[wave];
+  const { unit, name, armorTypeName, isFlyable, icon } = unitBlanksList[wave];
   const { interval, spawnType, spawns } = preset;
   const { speed, maxMana, reduceHp, reduceArmor, reduceBounty } = preset;
 
@@ -39,6 +37,7 @@ export default function generateWave(
     bounty: bounty,
     maxLife: life,
     maxMana: maxMana,
-    armor: armor
+    armor: armor,
+    icon: icon
   };
 }

@@ -1,7 +1,5 @@
 import voitingSegment from '@segments/voiting.segment';
 
-// import showWaveInfo from '@ui/show-wave-info';
-
 import autoBuildTrigger from '@triggers/autobuild.trigger';
 import autoUpgradeTrigger from '@triggers/autoupgrade.trigger';
 import blinkTrigger from '@triggers/blink.trigger';
@@ -12,8 +10,8 @@ import sellTowerTrigger from '@triggers/sell-tower.trigger';
 
 import createQuestLog from '@scripts/create-questlog';
 import playersSettings from '@scripts/players-settings';
-
-import runTimer from '@helpers/run-timer';
+import bonusesWindow from '@ui/bonuses-window';
+import showWaveInfo from '@ui/show-wave-info';
 
 import bloodlustSpell from '@spells/bloodlust.spell';
 import boomSpell from '@spells/boom';
@@ -27,8 +25,6 @@ import necromantDecoration from '@decorations/necromant.decoration';
 import shadeDecoration from '@decorations/shade.decoration';
 import treantDecoration from '@decorations/treant.decoration';
 import wispsDecoration from '@decorations/wisps.decoratation';
-
-import { GAME } from '@constants/game.constants';
 
 export default function preparationSegment() {
   // Create players and apply settings
@@ -59,17 +55,10 @@ export default function preparationSegment() {
   bloodlustSpell();
   boomSpell();
 
-  // Load Frames
+  // UI
   // showWaveInfo();
-
-  // Message
-  QuestMessageBJ(
-    GetPlayersAll() as force,
-    bj_QUESTMESSAGE_DISCOVERED,
-    `|cffffcc00Green Circle TS|r will begin shortly!`
-  );
+  // bonusesWindow();
 
   // Activate main game segment
-  // runTimer(voitingSegment, GAME.voitSegmentTimer, false, 'Voiting');
   voitingSegment();
 }

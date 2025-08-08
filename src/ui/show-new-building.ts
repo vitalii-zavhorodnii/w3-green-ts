@@ -1,21 +1,16 @@
-import { Frame } from 'w3ts';
+import { Frame, Trigger } from 'w3ts';
 
 import runTimer from '@helpers/run-timer';
 
-export default function showWaveInfo(
-  wave: number,
+export default function showNewBuilding(
+  icon: string,
   name: string,
-  armorType: string,
-  speed: number,
-  hp: number,
-  armor: number,
-  icon: string
+  description: string
 ) {
   let alpha = 0;
 
   let infoFrame: Frame;
   let iconFrame: Frame;
-  let countFrame: Frame;
   let descFrame: Frame;
 
   // Importing TOC file!
@@ -34,30 +29,14 @@ export default function showWaveInfo(
   iconFrame.setSize(0.028, 0.028);
   iconFrame.setPoint(FRAMEPOINT_LEFT, infoFrame, FRAMEPOINT_LEFT, 0.03, 0.0);
   iconFrame.setTexture(icon, 0, true);
-  // COUNT
-  countFrame = Frame.createType('CountFrame', iconFrame, 1, 'TEXT', '') as Frame;
-  countFrame.setPoint(
-    FRAMEPOINT_BOTTOMRIGHT,
-    iconFrame,
-    FRAMEPOINT_BOTTOMRIGHT,
-    0,
-    0
-  );
-  countFrame.setText('48');
-  countFrame.setSize(0.015, 0.01);
   // TEXT
   descFrame = Frame.createType('BonusText', infoFrame, 1, 'TEXT', '') as Frame;
+
   descFrame.setSize(0.2, 0.025);
   descFrame.setPoint(FRAMEPOINT_LEFT, iconFrame, FRAMEPOINT_RIGHT, 0.007, 0);
-  descFrame.setText(`|cffffcc00Wave ${wave} - |cffffcc00${name}|r
-${armorType} and |cff00ffff${speed}|r speed
-|cffc80000${hp}|r hp - |cff008000${armor}|r armor`);
+  descFrame.setText(`${name}|r|n${description}`);
   // SOUND
-  QuestMessageBJ(
-    GetPlayersAll() as force,
-    bj_QUESTMESSAGE_MISSIONFAILED,
-    `|cffffcc00|r`
-  );
+  QuestMessageBJ(GetPlayersAll() as force, bj_QUESTMESSAGE_ALWAYSHINT, `|cffffcc00|r`);
   // FADEIN
   const fadeTimer = runTimer(
     () => {
@@ -83,10 +62,8 @@ ${armorType} and |cff00ffff${speed}|r speed
           infoFrame.setAlpha(0);
 
           fadeTimer.destroy();
-
           infoFrame.destroy();
           iconFrame.destroy();
-          countFrame.destroy();
           descFrame.destroy();
         } else {
           alpha -= 10;
@@ -96,5 +73,5 @@ ${armorType} and |cff00ffff${speed}|r speed
       0.03,
       true
     );
-  }, 8);
+  }, 5);
 }

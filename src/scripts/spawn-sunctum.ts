@@ -1,5 +1,7 @@
 import { MapPlayer, Unit } from 'w3ts';
 
+import showNewBuilding from '@ui/show-new-building';
+
 import createVFX from '@helpers/create-vfx';
 
 import { GAME } from '@constants/game.constants';
@@ -23,9 +25,9 @@ export default function spawnSunctum() {
     // }
   }
 
-  QuestMessageBJ(
-    GetPlayersAll() as force,
-    bj_QUESTMESSAGE_UPDATED,
-    'New building: |cffffcc00Sunctum|r. Upgrades of Altar'
+  showNewBuilding(
+    'ReplaceableTextures\\CommandButtons\\BTNArcaneSanctum.blp',
+    '|cffffcc00Sunctum|r New building!',
+    'Upgrades for Altar'
   );
 }

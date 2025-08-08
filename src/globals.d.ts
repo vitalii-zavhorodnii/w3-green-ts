@@ -8,6 +8,7 @@ declare global {
     name: string;
     armorTypeName: string;
     isFlyable: boolean;
+    icon: string;
   }
 
   interface IPRESET {

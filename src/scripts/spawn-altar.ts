@@ -2,6 +2,8 @@ import { MapPlayer, Unit } from 'w3ts';
 
 import aurasUpgradeTrigger from '@triggers/auras-upgrade.trigger';
 
+import showNewBuilding from '@ui/show-new-building';
+
 import createVFX from '@helpers/create-vfx';
 
 import { GAME } from '@constants/game.constants';
@@ -28,9 +30,9 @@ export default function spawnAltar() {
     // }
   }
 
-  QuestMessageBJ(
-    GetPlayersAll() as force,
-    bj_QUESTMESSAGE_UPDATED,
-    'New building: |cffffcc00Altar|r. Spells and auras'
+  showNewBuilding(
+    'ReplaceableTextures\\CommandButtons\\BTNAltarOfKings.blp',
+    '|cffffcc00Altar|r New building!',
+    'Usable spells and auras'
   );
 }
