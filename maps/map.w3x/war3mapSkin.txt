@@ -1,4 +1,5 @@
 [Categories]
+GiantClass=TRIGSTR_1767
 TaurenClass=TRIGSTR_1605
 
 [CustomSkin]

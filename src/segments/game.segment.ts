@@ -1,6 +1,8 @@
-// import showWaveInfo from '@ui/show-wave-info';
+import { MapPlayer } from 'w3ts';
+
 import initLeaderboard from '@triggers/leaderboard/init-leaderboard';
 
+import giveBonusAbility from '@scripts/give-bonus-ability';
 import spawnAltar from '@scripts/spawn-altar';
 import spawnSunctum from '@scripts/spawn-sunctum';
 // import generateBoss from '@scripts/waves/generate-boss';

@@ -9,8 +9,9 @@ export const VFX = {
   AnimateDead: 'Abilities\\Spells\\Undead\\AnimateDead\\AnimateDeadTarget.mdl',
   DarkRitual: 'Abilities\\Spells\\Undead\\DarkRitual\\DarkRitualCaster.mdl',
   RitualDagger: 'Abilities\\Spells\\Items\\RitualDagger\\RitualDaggerTarget.mdl',
-  RaiseDead: "Abilities\\Spells\\Undead\\RaiseSkeletonWarrior\\RaiseSkeleton.mdl",
+  RaiseDead: 'Abilities\\Spells\\Undead\\RaiseSkeletonWarrior\\RaiseSkeleton.mdl',
   FlameStrike: 'Abilities\\Spells\\Human\\FlameStrike\\FlameStrikeEmbers.mdl',
   Roar: 'Abilities\\Spells\\NightElf\\BattleRoar\\RoarCaster.mdl',
-  Gold: 'Abilities\\Spells\\Other\\Transmute\\PileofGold.mdl'
+  Gold: 'Abilities\\Spells\\Other\\Transmute\\PileofGold.mdl',
+  Buff: 'Abilities\\Spells\\Items\\AIam\\AIamTarget.mdl'
 };

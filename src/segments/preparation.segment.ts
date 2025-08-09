@@ -11,7 +11,6 @@ import sellTowerTrigger from '@triggers/sell-tower.trigger';
 import createQuestLog from '@scripts/create-questlog';
 import playersSettings from '@scripts/players-settings';
 import bonusesWindow from '@ui/bonuses-window';
-import showWaveInfo from '@ui/show-wave-info';
 
 import bloodlustSpell from '@spells/bloodlust.spell';
 import boomSpell from '@spells/boom';
@@ -56,7 +55,6 @@ export default function preparationSegment() {
   boomSpell();
 
   // UI
-  // showWaveInfo();
   // bonusesWindow();
 
   // Activate main game segment

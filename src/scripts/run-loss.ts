@@ -23,12 +23,12 @@ export default function runLoss() {
   ForGroupBJ(groupLUA, () => {
     const unit = Unit.fromEnum() as Unit;
 
-    if (unit.isUnitType(UNIT_TYPE_PEON)) {
+    if (unit.isUnitType(UNIT_TYPE_PEON) || unit.isUnitType(UNIT_TYPE_STRUCTURE)) {
       unit.kill();
       createVFX(VFX.RitualDagger, unit.x, unit.y);
     }
 
-    if (unit.isUnitType(UNIT_TYPE_STRUCTURE)) {
+    if (unit.isUnitType(UNIT_TYPE_GIANT)) {
       unit.setOwner(enemyPlayer, true);
 
       const randomTimer = randomize(7, 4);

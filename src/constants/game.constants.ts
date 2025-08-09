@@ -1,6 +1,6 @@
 export const GAME = {
   voitingSegmentTimer: 10, // 20
-  startSegmentTimer: 30, // 30
+  startSegmentTimer: 20, // 20
   startGold: 180, // 180
   startWood: 0, // 0
   maxPlayers: 6, // 6
