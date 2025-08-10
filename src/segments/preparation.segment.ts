@@ -9,7 +9,6 @@ import creepsCleanTrigger from '@triggers/creeps-clean.trigger';
 import sellTowerTrigger from '@triggers/sell-tower.trigger';
 
 import createQuestLog from '@scripts/create-questlog';
-import playersSettings from '@scripts/players-settings';
 import bonusesWindow from '@ui/bonuses-window';
 
 import bloodlustSpell from '@spells/bloodlust.spell';
@@ -27,7 +26,7 @@ import wispsDecoration from '@decorations/wisps.decoratation';
 
 export default function preparationSegment() {
   // Create players and apply settings
-  playersSettings();
+
   creepLootTrigger();
   createQuestLog();
   checkOverCapTrigger();

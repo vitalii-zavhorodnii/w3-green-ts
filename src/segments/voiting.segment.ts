@@ -4,6 +4,8 @@ import voitingDifficultyTrigger from './voiting-difficulty.trigger';
 
 import gameSegment from '@segments/game.segment';
 
+import spawnPlayers from '@scripts/spawn-players';
+
 import runTimer from '@helpers/run-timer';
 
 import { GAME } from '@constants/game.constants';
@@ -53,6 +55,8 @@ export default function voitingSegment(): void {
 
     dialog.destroy();
 
+    spawnPlayers();
+
     runTimer(gameSegment, GAME.startSegmentTimer, false, 'Game starts in');
   }
 
@@ -63,7 +67,7 @@ export default function voitingSegment(): void {
     const player = MapPlayer.fromIndex(i) as MapPlayer;
 
     players++;
-    // dialog.display(player, true);
+    dialog.display(player, true);
   }
 
   runTimer(endVoiting, GAME.voitingSegmentTimer, false, 'Voiting');

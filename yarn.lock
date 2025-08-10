@@ -1180,16 +1180,6 @@ mdx-m3-viewer-th@^5.13.1:
     pako "^2.0.3"
     tga-js "^1.1.1"
 
-"mdx-m3-viewer@git+https://github.com/cipherxof/mdx-m3-viewer.git#updates":
-  version "5.13.1"
-  resolved "git+https://github.com/cipherxof/mdx-m3-viewer.git#f4112b22a9659b30c085804d658310e5be855317"
-  dependencies:
-    fengari "^0.1.4"
-    file-saver "^2.0.5"
-    gl-matrix "3.3.0"
-    pako "^2.0.3"
-    tga-js "^1.1.1"
-
 micromatch@^3.1.10, micromatch@^3.1.4:
   version "3.1.10"
   resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-3.1.10.tgz#70859bc95c9840952f359a068a3fc49f9ecfac23"
